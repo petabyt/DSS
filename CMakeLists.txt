@@ -24,7 +24,7 @@ set(LANGUAGES ca cs de en es fr it nl pt ro ru tr zh)
 # Create temporary resource file and a list of translations to generate
 file(WRITE ${CMAKE_BINARY_DIR}/translations.qrc "<!DOCTYPE RCC><RCC version=\"1.0\">\n<qresource prefix=\"i18n\">\n")
 foreach(LANG ${LANGUAGES})
-    list(APPEND TRANSLATIONS ${CMAKE_SOURCE_DIR}/i18n/DSS_${LANG}.ts "\n")
+    list(APPEND TRANSLATIONS ${CMAKE_SOURCE_DIR}/i18n/DSS_${LANG}.ts)
     file(APPEND ${CMAKE_BINARY_DIR}/translations.qrc "    <file>DSS_${LANG}.qm</file>\n")
 endforeach(LANG)
 file(APPEND ${CMAKE_BINARY_DIR}/translations.qrc "</qresource>\n</RCC>")
