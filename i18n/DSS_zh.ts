@@ -159,8 +159,8 @@ Do you want...</source>
     <name>BackgroundOptions</name>
     <message>
         <location filename="../qt/BackgroundOptions.ui" line="14"/>
-        <source>Dialog</source>
-        <translation type="unfinished"></translation>
+        <source>Background Options</source>
+        <translation type="unfinished">背景選項</translation>
     </message>
     <message>
         <location filename="../qt/BackgroundOptions.ui" line="20"/>

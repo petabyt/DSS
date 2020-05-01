@@ -149,7 +149,7 @@ Do you want...</source>
     <name>BackgroundOptions</name>
     <message>
         <location filename="../qt/BackgroundOptions.ui" line="14"/>
-        <source>Dialog</source>
+        <source>Background Options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
