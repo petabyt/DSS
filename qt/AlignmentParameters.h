@@ -10,20 +10,25 @@ class AlignmentParameters;
 class AlignmentParameters : public QDialog
 {
     Q_OBJECT
+    Q_PROPERTY(uint16_t alignment READ alignment WRITE setAlignment NOTIFY alignmentChanged)
 
 public:
     explicit AlignmentParameters(QWidget *parent = 0);
     ~AlignmentParameters();
 
-    void SetAlignment(uint16_t wAlignment)
-    {
-        m_Alignment = wAlignment;
-        updateText();
-    };
-
-    uint16_t GetAlignment()
+    uint16_t alignment()
     {
         return m_Alignment;
+    };
+
+    void setAlignment(uint16_t wAlignment)
+    {
+        if (m_Alignment != wAlignment)
+        {
+            m_Alignment = wAlignment;
+            updateText();
+            emit alignmentChanged();
+        }
     };
 
 signals:
@@ -39,7 +44,6 @@ private slots:
 
 private:
     uint16_t m_Alignment;
-    bool m_bFirstActivation;
     Ui::AlignmentParameters *ui;
 };
 

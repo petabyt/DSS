@@ -6,7 +6,6 @@ AlignmentParameters::AlignmentParameters(QWidget *parent) :
     ui(new Ui::AlignmentParameters)
 {
     ui->setupUi(this);
-    m_bFirstActivation = true;
 }
 
 AlignmentParameters::~AlignmentParameters()
@@ -40,35 +39,25 @@ void AlignmentParameters::updateText()
 
 void AlignmentParameters::onAutomaticClicked()
 {
-    m_Alignment = 0;
-    updateText();
-    emit alignmentChanged();
+    setAlignment(0);
 }
 
 void AlignmentParameters::onBilinearClicked()
 {
-    m_Alignment = 2;
-    updateText();
-    emit alignmentChanged();
+    setAlignment(2);
 }
 
 void AlignmentParameters::onBisquaredClicked()
 {
-    m_Alignment = 3;
-    updateText();
-    emit alignmentChanged();
+    setAlignment(3);
 }
 
 void AlignmentParameters::onBicubicClicked()
 {
-    m_Alignment = 4;
-    updateText();
-    emit alignmentChanged();
+    setAlignment(4);
 }
 
 void AlignmentParameters::onNoAlignemtnClicked()
 {
-    m_Alignment = 5;
-    updateText();
-    emit alignmentChanged();
+    setAlignment(5);
 }
