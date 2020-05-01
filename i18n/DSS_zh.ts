@@ -223,12 +223,12 @@ Do you want...</source>
     <message>
         <location filename="../qt/main.cpp" line="15"/>
         <source>OK</source>
-        <translation>ooOooK</translation>
+        <translation>OK</translation>
     </message>
     <message>
         <location filename="../qt/main.cpp" line="11"/>
         <source>Cancel</source>
-        <translation>dsfsdfooK</translation>
+        <translation>取消</translation>
     </message>
 </context>
 </TS>
