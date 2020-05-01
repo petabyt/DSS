@@ -6,24 +6,18 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>378</width>
-    <height>241</height>
+    <width>387</width>
+    <height>213</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Unregistered light frame</string>
   </property>
-  <layout class="QFormLayout" name="formLayout">
+  <layout class="QVBoxLayout" name="verticalLayout_2">
    <property name="sizeConstraint">
     <enum>QLayout::SetFixedSize</enum>
    </property>
-   <property name="labelAlignment">
-    <set>Qt::AlignHCenter|Qt::AlignTop</set>
-   </property>
-   <property name="formAlignment">
-    <set>Qt::AlignHCenter|Qt::AlignTop</set>
-   </property>
-   <item row="0" column="0" colspan="2">
+   <item>
     <layout class="QVBoxLayout" name="verticalLayout">
      <property name="leftMargin">
       <number>20</number>
@@ -89,7 +83,7 @@ Do you want...</string>
      </item>
     </layout>
    </item>
-   <item row="1" column="0" colspan="2">
+   <item>
     <widget class="QDialogButtonBox" name="buttonBox">
      <property name="orientation">
       <enum>Qt::Horizontal</enum>
@@ -108,30 +102,80 @@ Do you want...</string>
    <signal>accepted()</signal>
    <receiver>AskRegistering</receiver>
    <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
   </connection>
   <connection>
    <sender>buttonBox</sender>
    <signal>rejected()</signal>
    <receiver>AskRegistering</receiver>
    <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
   </connection>
   <connection>
    <sender>radioButton</sender>
    <signal>clicked()</signal>
    <receiver>AskRegistering</receiver>
    <slot>onRegisterOne()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
   </connection>
   <connection>
    <sender>radioButton_2</sender>
    <signal>clicked()</signal>
    <receiver>AskRegistering</receiver>
    <slot>onRegisterAll()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
   </connection>
   <connection>
    <sender>radioButton_3</sender>
    <signal>clicked()</signal>
    <receiver>AskRegistering</receiver>
    <slot>onRegisterNone()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
   </connection>
  </connections>
  <slots>
