@@ -1,0 +1,12 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="calibration">
+    <file alias="rational.bmp">../DeepSkyStacker/res/Calibration_Rational.bmp</file>
+    <file alias="linear.bmp">../DeepSkyStacker/res/Calibration_Linear.bmp</file>
+</qresource>
+<qresource prefix="rgbcalibration">
+    <file alias="none.bmp">../DeepSkyStacker/res/RGBCalibration_None.bmp</file>
+    <file alias="middle.bmp">../DeepSkyStacker/res/RGBCalibration_Middle.bmp</file>
+    <file alias="minimum.bmp">../DeepSkyStacker/res/RGBCalibration_Minimum.bmp</file>
+    <file alias="maximum.bmp">../DeepSkyStacker/res/RGBCalibration_Maximum.bmp</file>
+</qresource>
+</RCC>
