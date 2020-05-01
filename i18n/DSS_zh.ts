@@ -203,4 +203,32 @@ Do you want...</source>
         <translation type="unfinished">最大值</translation>
     </message>
 </context>
+<context>
+    <name>QPlatformTheme</name>
+    <message>
+        <location filename="../qt/main.cpp" line="12"/>
+        <source>Apply</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qt/main.cpp" line="13"/>
+        <source>&amp;Yes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qt/main.cpp" line="14"/>
+        <source>&amp;No</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qt/main.cpp" line="15"/>
+        <source>OK</source>
+        <translation>ooOooK</translation>
+    </message>
+    <message>
+        <location filename="../qt/main.cpp" line="11"/>
+        <source>Cancel</source>
+        <translation>dsfsdfooK</translation>
+    </message>
+</context>
 </TS>
