@@ -1,4 +1,7 @@
 <!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file alias="logo.png">../DeepSkyStacker/res/logo.png</file>
+</qresource>
 <qresource prefix="calibration">
     <file alias="rational.bmp">../DeepSkyStacker/res/Calibration_Rational.bmp</file>
     <file alias="linear.bmp">../DeepSkyStacker/res/Calibration_Linear.bmp</file>
