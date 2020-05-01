@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>Unregistered light frame</string>
   </property>
   <layout class="QFormLayout" name="formLayout">
    <property name="sizeConstraint">
@@ -108,80 +108,30 @@ Do you want...</string>
    <signal>accepted()</signal>
    <receiver>AskRegistering</receiver>
    <slot>accept()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>257</x>
-     <y>204</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>157</x>
-     <y>274</y>
-    </hint>
-   </hints>
   </connection>
   <connection>
    <sender>buttonBox</sender>
    <signal>rejected()</signal>
    <receiver>AskRegistering</receiver>
    <slot>reject()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>325</x>
-     <y>204</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>286</x>
-     <y>274</y>
-    </hint>
-   </hints>
   </connection>
   <connection>
    <sender>radioButton</sender>
    <signal>clicked()</signal>
    <receiver>AskRegistering</receiver>
    <slot>onRegisterOne()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>138</x>
-     <y>105</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>138</x>
-     <y>224</y>
-    </hint>
-   </hints>
   </connection>
   <connection>
    <sender>radioButton_2</sender>
    <signal>clicked()</signal>
    <receiver>AskRegistering</receiver>
    <slot>onRegisterAll()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>201</x>
-     <y>136</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>359</x>
-     <y>68</y>
-    </hint>
-   </hints>
   </connection>
   <connection>
    <sender>radioButton_3</sender>
    <signal>clicked()</signal>
    <receiver>AskRegistering</receiver>
    <slot>onRegisterNone()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>111</x>
-     <y>167</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>63</x>
-     <y>221</y>
-    </hint>
-   </hints>
   </connection>
  </connections>
  <slots>

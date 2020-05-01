@@ -3,17 +3,16 @@
 
 #include <QDialog>
 
-
 namespace Ui {
 class AskRegistering;
 }
 
 typedef enum tagASKREGISTERINGANSWER
 {
-        ARA_ONE                 = 1,
-        ARA_ALL                 = 2,
+        ARA_ONE         = 1,
+        ARA_ALL         = 2,
         ARA_CONTINUE    = 3
-}ASKREGISTERINGANSWER;
+} ASKREGISTERINGANSWER;
 
 class AskRegistering : public QDialog
 {
