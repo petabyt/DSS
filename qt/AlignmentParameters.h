@@ -1,13 +1,13 @@
 #ifndef ALIGNMENTPARAMETERS_H
 #define ALIGNMENTPARAMETERS_H
 
-#include <QDialog>
+#include <QWidget>
 
 namespace Ui {
 class AlignmentParameters;
 }
 
-class AlignmentParameters : public QDialog
+class AlignmentParameters : public QWidget
 {
     Q_OBJECT
     Q_PROPERTY(uint16_t alignment READ alignment WRITE setAlignment NOTIFY alignmentChanged)

@@ -2,7 +2,7 @@
 #include "ui_AlignmentParameters.h"
 
 AlignmentParameters::AlignmentParameters(QWidget *parent) :
-    QDialog(parent),
+    QWidget(parent),
     ui(new Ui::AlignmentParameters)
 {
     ui->setupUi(this);
