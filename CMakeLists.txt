@@ -15,6 +15,8 @@ find_package(Qt5 COMPONENTS Widgets REQUIRED)
 add_executable(DeepSkyStacker
     qt/AskRegistering.ui
     qt/AskRegistering.cpp
+    qt/AlignmentParameters.ui
+    qt/AlignmentParameters.cpp
     qt/main.cpp
 #    qt/resources.qrc
 )
