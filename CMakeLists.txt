@@ -51,6 +51,10 @@ set(UI_FILES
     qt/DropFilesDlg.cpp
     qt/FitsFilesTab.ui
     qt/FitsFilesTab.cpp
+    qt/RawFilesTab.ui
+    qt/RawFilesTab.cpp
+    qt/RawDDPSettings.ui
+    qt/RawDDPSettings.cpp
     qt/ClickLabel.cpp
     qt/main.cpp
 )
