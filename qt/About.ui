@@ -129,8 +129,8 @@
    <slot>accept()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>248</x>
-     <y>254</y>
+     <x>467</x>
+     <y>587</y>
     </hint>
     <hint type="destinationlabel">
      <x>157</x>
@@ -145,8 +145,8 @@
    <slot>reject()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>316</x>
-     <y>260</y>
+     <x>467</x>
+     <y>587</y>
     </hint>
     <hint type="destinationlabel">
      <x>286</x>
@@ -154,5 +154,41 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>About</receiver>
+   <slot>storeSettings()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>420</x>
+     <y>572</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>475</x>
+     <y>507</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>comboBox</sender>
+   <signal>currentIndexChanged(int)</signal>
+   <receiver>About</receiver>
+   <slot>selectLanguage(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>309</x>
+     <y>366</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>477</x>
+     <y>310</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
+ <slots>
+  <slot>storeSettings()</slot>
+  <slot>selectLanguage(int)</slot>
+ </slots>
 </ui>

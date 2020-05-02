@@ -1,4 +1,5 @@
-#include <QDirIterator>
+#include <QDir>
+#include <QSettings>
 #include <QString>
 #include "About.h"
 #include "ui_About.h"
@@ -41,14 +42,16 @@ About::About(QWidget *parent) :
     strHTML += strText;
 
     ui->setupUi(this);
-    ui->comboBox->addItem(tr("Default"));
-    QDirIterator it(":/i18n/");
-    while (it.hasNext()) {
-        QString lang = it.next().section(".", 0, 0).right(2);
+    ui->comboBox->addItem(tr("Default"), "");
+    QDir dir(":/i18n/", "DSS_*.qm");
+    for(auto it: dir.entryList())
+    {
+        QString lang = it.section(".", 0, 0).right(2);
         QString langName = QLocale(lang).nativeLanguageName();
         langName[0] = langName[0].toUpper();
         ui->comboBox->addItem(langName, lang);
     }
+    setLanguage(QSettings().value("Language", "").toString());
 
     ui->html->setText(strHTML);
 }
@@ -56,4 +59,25 @@ About::About(QWidget *parent) :
 About::~About()
 {
     delete ui;
+}
+
+void About::setLanguage(QString lang)
+{
+    if (m_Language != lang)
+    {
+        m_Language = lang;
+        ui->comboBox->setCurrentIndex(ui->comboBox->findData(m_Language));
+        emit languageChanged();
+    }
+}
+
+void About::selectLanguage(int idx)
+{
+    setLanguage(ui->comboBox->itemData(idx).toString());
+}
+
+void About::storeSettings()
+{
+    QSettings settings;
+    settings.setValue("Language", m_Language);
 }
