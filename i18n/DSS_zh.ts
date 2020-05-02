@@ -24,28 +24,37 @@
         <translation>啟動時檢查是否有新版本</translation>
     </message>
     <message>
-        <location filename="../qt/About.cpp" line="12"/>
+        <location filename="../qt/About.cpp" line="14"/>
         <source>DeepSkyStacker version %1</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../qt/About.cpp" line="21"/>
+        <location filename="../qt/About.cpp" line="23"/>
         <source>RAW file decoding by LibRaw (version %1)
 Copyright © 1997-2019 LibRaw LLC</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../qt/About.cpp" line="28"/>
+        <location filename="../qt/About.cpp" line="30"/>
         <source>TIFF file encoding/decoding by LibTIFF (version %1)
 Copyright © 1988-1996 Sam Leffler
 Copyright © 1991-1996 Silicon Graphics, Inc.</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../qt/About.cpp" line="35"/>
+        <location filename="../qt/About.cpp" line="37"/>
         <source>FITS decoding by CFitsIO (version %1)
 Copyright NASA</source>
         <translation></translation>
+    </message>
+    <message>
+        <location filename="../qt/About.cpp" line="45"/>
+        <source>Default</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Default;English;Français;Español;Italiano;Cesky;Català;Deutsch;Nederlands;Traditional Chinese;Portuguese;Romanian;Russian;Turkish</source>
+        <translation type="obsolete">預設;English;Francais;Espanol;Italiano;Cesky;Catala;Deutsch;Nederlands;Traditional Chinese;葡萄牙?;??尼?;俄文;土耳其</translation>
     </message>
 </context>
 <context>
@@ -204,29 +213,234 @@ Do you want...</source>
     </message>
 </context>
 <context>
+    <name>BatchStacking</name>
+    <message>
+        <location filename="../qt/BatchStacking.ui" line="14"/>
+        <source>Batch Stacking</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qt/BatchStacking.ui" line="20"/>
+        <source>This dialog is used to launch the stacking process from existing image lists.
+
+Add the file lists you want to stack and click OK to start the stacking processes.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qt/BatchStacking.ui" line="34"/>
+        <source>Add File Lists...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qt/BatchStacking.ui" line="54"/>
+        <source>Clear List</source>
+        <translation type="unfinished">清除影像清單</translation>
+    </message>
+</context>
+<context>
+    <name>CheckAbove</name>
+    <message>
+        <location filename="../qt/CheckAbove.ui" line="16"/>
+        <source>Dialog</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>DeepStackerDlg</name>
+    <message>
+        <location filename="../qt/DeepStackerDlg.cpp" line="9"/>
+        <source>DeepSkyStacker %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>DropFilesDlg</name>
+    <message>
+        <location filename="../qt/DropFilesDlg.ui" line="16"/>
+        <source>Dialog</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>ExplorerBar</name>
+    <message>
+        <location filename="../qt/ExplorerBar.ui" line="35"/>
+        <source>Registering and Stacking</source>
+        <translation>偵測星點與疊合</translation>
+    </message>
+    <message>
+        <location filename="../qt/ExplorerBar.ui" line="80"/>
+        <source>Open picture files...</source>
+        <translation>開啟影像檔...</translation>
+    </message>
+    <message>
+        <location filename="../qt/ExplorerBar.ui" line="90"/>
+        <source>dark files...</source>
+        <translation>暗電流檔...</translation>
+    </message>
+    <message>
+        <location filename="../qt/ExplorerBar.ui" line="103"/>
+        <source>flat files...</source>
+        <translation>平場檔案...</translation>
+    </message>
+    <message>
+        <location filename="../qt/ExplorerBar.ui" line="113"/>
+        <source>dark flat files...</source>
+        <translation>平場暗電流檔...</translation>
+    </message>
+    <message>
+        <location filename="../qt/ExplorerBar.ui" line="123"/>
+        <source>offset/bias files...</source>
+        <translation>偏壓檔...</translation>
+    </message>
+    <message>
+        <location filename="../qt/ExplorerBar.ui" line="146"/>
+        <source>Open a File List...</source>
+        <translation>開啟檔案清單...</translation>
+    </message>
+    <message>
+        <location filename="../qt/ExplorerBar.ui" line="153"/>
+        <source>Save the FIle List...</source>
+        <translation>儲存檔案清單...</translation>
+    </message>
+    <message>
+        <location filename="../qt/ExplorerBar.ui" line="176"/>
+        <source>Clear List</source>
+        <translation>清除影像清單</translation>
+    </message>
+    <message>
+        <location filename="../qt/ExplorerBar.ui" line="207"/>
+        <source>Check all</source>
+        <translation>勾選全部</translation>
+    </message>
+    <message>
+        <location filename="../qt/ExplorerBar.ui" line="214"/>
+        <source>Check above a threshold...</source>
+        <translation>勾選高於某臨界值者...</translation>
+    </message>
+    <message>
+        <location filename="../qt/ExplorerBar.ui" line="221"/>
+        <source>Uncheck all</source>
+        <translation>取消全部的勾選</translation>
+    </message>
+    <message>
+        <location filename="../qt/ExplorerBar.ui" line="252"/>
+        <source>Register checked pictures...</source>
+        <translation>偵測勾選影像中的星點...</translation>
+    </message>
+    <message>
+        <location filename="../qt/ExplorerBar.ui" line="259"/>
+        <source>Compute offsets...</source>
+        <translation>計算位移量...</translation>
+    </message>
+    <message>
+        <location filename="../qt/ExplorerBar.ui" line="266"/>
+        <source>Stack checked pictures...</source>
+        <translation>疊合勾選之影像...</translation>
+    </message>
+    <message>
+        <location filename="../qt/ExplorerBar.ui" line="273"/>
+        <source>Batch stacking...</source>
+        <translation>批次疊合...</translation>
+    </message>
+    <message>
+        <location filename="../qt/ExplorerBar.ui" line="286"/>
+        <source>Processing</source>
+        <translation>影像處理</translation>
+    </message>
+    <message>
+        <location filename="../qt/ExplorerBar.ui" line="307"/>
+        <source>Open picture file...</source>
+        <translation>開啟影像檔...</translation>
+    </message>
+    <message>
+        <location filename="../qt/ExplorerBar.ui" line="314"/>
+        <source>Copy current picture to clipboard</source>
+        <translation>將本照片覆製至暫存區</translation>
+    </message>
+    <message>
+        <location filename="../qt/ExplorerBar.ui" line="321"/>
+        <source>Create a Star Mask...</source>
+        <translation>製作星像遮罩...</translation>
+    </message>
+    <message>
+        <location filename="../qt/ExplorerBar.ui" line="328"/>
+        <source>Save picture to file...</source>
+        <translation>儲存影像...</translation>
+    </message>
+    <message>
+        <location filename="../qt/ExplorerBar.ui" line="338"/>
+        <source>Options</source>
+        <translation>選項</translation>
+    </message>
+    <message>
+        <location filename="../qt/ExplorerBar.ui" line="359"/>
+        <source>Settings...</source>
+        <translation>設定...</translation>
+    </message>
+    <message>
+        <location filename="../qt/ExplorerBar.ui" line="369"/>
+        <source>Raw/FITS DDP Settings...</source>
+        <translation>Raw/FITS檔數位顯像設定...</translation>
+    </message>
+    <message>
+        <location filename="../qt/ExplorerBar.ui" line="379"/>
+        <source>Load...</source>
+        <translation>載入...</translation>
+    </message>
+    <message>
+        <location filename="../qt/ExplorerBar.ui" line="389"/>
+        <source>Save...</source>
+        <translation>儲存...</translation>
+    </message>
+    <message>
+        <location filename="../qt/ExplorerBar.ui" line="399"/>
+        <source>Recommended...</source>
+        <translation>建議值...</translation>
+    </message>
+    <message>
+        <location filename="../qt/ExplorerBar.ui" line="406"/>
+        <source>About DeepSkyStacker...</source>
+        <translation>關於DeepSkyStacker...</translation>
+    </message>
+    <message>
+        <location filename="../qt/ExplorerBar.ui" line="413"/>
+        <source>DeepSkyStacker&apos;s Help...</source>
+        <translation>DeepSkyStacker說明...</translation>
+    </message>
+</context>
+<context>
+    <name>FitsFilesTab</name>
+    <message>
+        <location filename="../qt/FitsFilesTab.ui" line="16"/>
+        <source>Form</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>QPlatformTheme</name>
     <message>
-        <location filename="../qt/main.cpp" line="12"/>
+        <location filename="../qt/main.cpp" line="14"/>
         <source>Apply</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qt/main.cpp" line="13"/>
+        <location filename="../qt/main.cpp" line="15"/>
         <source>&amp;Yes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qt/main.cpp" line="14"/>
+        <location filename="../qt/main.cpp" line="16"/>
         <source>&amp;No</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../qt/main.cpp" line="15"/>
+        <location filename="../qt/main.cpp" line="17"/>
         <source>OK</source>
         <translation>OK</translation>
     </message>
     <message>
-        <location filename="../qt/main.cpp" line="11"/>
+        <location filename="../qt/main.cpp" line="13"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
