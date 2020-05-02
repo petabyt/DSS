@@ -55,6 +55,14 @@ set(UI_FILES
     qt/RawFilesTab.cpp
     qt/RawDDPSettings.ui
     qt/RawDDPSettings.cpp
+    qt/ResultParameters.ui
+    qt/ResultParameters.cpp
+    qt/StackSettings.ui
+    qt/StackSettings.cpp
+    qt/CometStacking.ui
+    qt/CometStacking.cpp
+    qt/PostCalibration.ui
+    qt/PostCalibration.cpp
     qt/ClickLabel.cpp
     qt/main.cpp
 )

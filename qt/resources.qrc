@@ -12,4 +12,9 @@
     <file alias="minimum.bmp">../DeepSkyStacker/res/RGBCalibration_Minimum.bmp</file>
     <file alias="maximum.bmp">../DeepSkyStacker/res/RGBCalibration_Maximum.bmp</file>
 </qresource>
+<qresource prefix="comet">
+    <file alias="normal.bmp">../DeepSkyStacker/res/Comet_Normal.bmp</file>
+    <file alias="freeze.bmp">../DeepSkyStacker/res/Comet_Freeze.bmp</file>
+    <file alias="trails.bmp">../DeepSkyStacker/res/Comet_Trails.bmp</file>
+</qresource>
 </RCC>
