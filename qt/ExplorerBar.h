@@ -18,6 +18,7 @@ public:
 
 private slots:
     void onAbout();
+    void onOptionsSettings();
     void onOptionsRawDDPSettings();
     void linkActivated();
 

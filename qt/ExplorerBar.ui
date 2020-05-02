@@ -354,7 +354,7 @@
        <number>6</number>
       </property>
       <item>
-       <widget class="QLabel" name="label_13">
+       <widget class="ClickLabel" name="label_13">
         <property name="text">
          <string>Settings...</string>
         </property>
@@ -422,6 +422,7 @@
  <customwidgets>
   <customwidget>
    <class>ClickLabel</class>
+   <extends>QLabel</extends>
    <slots>
     <signal>clicked()</signal>
    </slots>
@@ -446,6 +447,12 @@
    </hints>
   </connection>
   <connection>
+   <sender>label_13</sender>
+   <signal>clicked()</signal>
+   <receiver>ExplorerBar</receiver>
+   <slot>onOptionsSettings()</slot>
+  </connection>
+  <connection>
    <sender>label_14</sender>
    <signal>clicked()</signal>
    <receiver>ExplorerBar</receiver>
@@ -465,6 +472,7 @@
  <slots>
   <slot>linkActivated()</slot>
   <slot>onAbout()</slot>
+  <slot>onOptionsSettings()</slot>
   <slot>onOptionsRawDDPSettings()</slot>
  </slots>
 </ui>
