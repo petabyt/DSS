@@ -1,3 +1,4 @@
+#include <QDirIterator>
 #include <QString>
 #include "About.h"
 #include "ui_About.h"
@@ -39,8 +40,16 @@ About::About(QWidget *parent) :
     strText = QString("<a href=\"%1\">%1</a><br>").arg("http://heasarc.gsfc.nasa.gov/docs/software/fitsio/fitsio.html");
     strHTML += strText;
 
-
     ui->setupUi(this);
+    ui->comboBox->addItem(tr("Default"));
+    QDirIterator it(":/i18n/");
+    while (it.hasNext()) {
+        QString lang = it.next().section(".", 0, 0).right(2);
+        QString langName = QLocale(lang).nativeLanguageName();
+        langName[0] = langName[0].toUpper();
+        ui->comboBox->addItem(langName, lang);
+    }
+
     ui->html->setText(strHTML);
 }
 
