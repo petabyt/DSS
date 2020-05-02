@@ -39,6 +39,19 @@ set(UI_FILES
     qt/AlignmentParameters.cpp
     qt/BackgroundOptions.ui
     qt/BackgroundOptions.cpp
+    qt/BatchStacking.ui
+    qt/BatchStacking.cpp
+    qt/CheckAbove.ui
+    qt/CheckAbove.cpp
+    qt/DeepStackerDlg.ui
+    qt/DeepStackerDlg.cpp
+    qt/ExplorerBar.ui
+    qt/ExplorerBar.cpp
+    qt/DropFilesDlg.ui
+    qt/DropFilesDlg.cpp
+    qt/FitsFilesTab.ui
+    qt/FitsFilesTab.cpp
+    qt/ClickLabel.cpp
     qt/main.cpp
 )
 
