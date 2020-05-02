@@ -410,9 +410,88 @@ Add the file lists you want to stack and click OK to start the stacking processe
 <context>
     <name>FitsFilesTab</name>
     <message>
-        <location filename="../qt/FitsFilesTab.ui" line="16"/>
-        <source>Form</source>
-        <translation type="unfinished"></translation>
+        <location filename="../qt/FitsFilesTab.ui" line="14"/>
+        <source>FITS Files</source>
+        <translation>FITS檔</translation>
+    </message>
+    <message>
+        <location filename="../qt/FitsFilesTab.ui" line="35"/>
+        <source>Monochrome 16 bit FITS Files are RAW files created by a DSLR or a color CCD camera</source>
+        <translation>單色16 bit FITS檔乃由DSLR或彩色CCD相機產生</translation>
+    </message>
+    <message>
+        <location filename="../qt/FitsFilesTab.ui" line="49"/>
+        <source>Camera:</source>
+        <translation>相機:</translation>
+    </message>
+    <message>
+        <location filename="../qt/FitsFilesTab.ui" line="63"/>
+        <source>Color Adjistment</source>
+        <translation>色彩調整</translation>
+    </message>
+    <message>
+        <location filename="../qt/FitsFilesTab.ui" line="102"/>
+        <source>Brightness</source>
+        <translation>亮度</translation>
+    </message>
+    <message>
+        <location filename="../qt/FitsFilesTab.ui" line="109"/>
+        <source>Red scale</source>
+        <translation>紅色比率</translation>
+    </message>
+    <message>
+        <location filename="../qt/FitsFilesTab.ui" line="116"/>
+        <source>Blue scale</source>
+        <translation>藍色比率</translation>
+    </message>
+    <message>
+        <location filename="../qt/FitsFilesTab.ui" line="126"/>
+        <source>Bayer Pattern Filter used</source>
+        <translation>所使用的Bayer濾鏡配置</translation>
+    </message>
+    <message>
+        <location filename="../qt/FitsFilesTab.ui" line="150"/>
+        <source>Bayer Matrix Transformation</source>
+        <translation>Bayer矩陣轉換</translation>
+    </message>
+    <message>
+        <location filename="../qt/FitsFilesTab.ui" line="159"/>
+        <source>Bilinear Interpolation</source>
+        <translation>雙線性內插</translation>
+    </message>
+    <message>
+        <location filename="../qt/FitsFilesTab.ui" line="179"/>
+        <source>Adaptive Homogeneity-Directed (AHD) Interpolation</source>
+        <translation>自調適均質性導向(AHD)內插法</translation>
+    </message>
+    <message>
+        <location filename="../qt/FitsFilesTab.ui" line="199"/>
+        <source>Use Bayer Drizzle algorithm (no interpolation, no debayerization)</source>
+        <translation>使用Bayer Drizzle (無內插，不解譯Bayer矩陣)</translation>
+    </message>
+    <message>
+        <location filename="../qt/FitsFilesTab.ui" line="215"/>
+        <source>This option uses the Bayer matrix as is. No interpolation is done and each pixel is given only primary components from the matrix.</source>
+        <translation>本選項不對Bayer矩陣作任何更動與內插，每個像元只取Bayer矩陣中原有的顏色。</translation>
+    </message>
+    <message>
+        <location filename="../qt/FitsFilesTab.ui" line="238"/>
+        <source>Create super-pixels from the raw Bayer matrix (no interpolation)</source>
+        <translation>自原始Bayer矩陣產生大像元 (無內插)</translation>
+    </message>
+    <message>
+        <source>RadioButton</source>
+        <translation type="vanished">自原始Bayer矩陣產生大像元 (無內插)</translation>
+    </message>
+    <message>
+        <location filename="../qt/FitsFilesTab.ui" line="254"/>
+        <source>This option uses the Bayer matrix to create one super-pixel from each group of 4 pixels (RGBG). The sizes of the resulting image are thus divided by two.</source>
+        <translation>本選項將以Bayer矩陣中每四個GRGB像元合併成一個大像元，因此產生的影像長寬將各減半。</translation>
+    </message>
+    <message>
+        <location filename="../qt/FitsFilesTab.ui" line="267"/>
+        <source>Force use of unsigned values when signed values are stored</source>
+        <translation>檔案中的數值有正負號時，強制忽略正負號。</translation>
     </message>
 </context>
 <context>
@@ -420,7 +499,7 @@ Add the file lists you want to stack and click OK to start the stacking processe
     <message>
         <location filename="../qt/main.cpp" line="14"/>
         <source>Apply</source>
-        <translation type="unfinished"></translation>
+        <translation>套用</translation>
     </message>
     <message>
         <location filename="../qt/main.cpp" line="15"/>
@@ -441,6 +520,97 @@ Add the file lists you want to stack and click OK to start the stacking processe
         <location filename="../qt/main.cpp" line="13"/>
         <source>Cancel</source>
         <translation>取消</translation>
+    </message>
+</context>
+<context>
+    <name>RawDDPSettings</name>
+    <message>
+        <location filename="../qt/RawDDPSettings.ui" line="14"/>
+        <source>RAW/FITS Digital Development Process Settings</source>
+        <translation>RAW/FITS 數位顯像設定</translation>
+    </message>
+</context>
+<context>
+    <name>RawFilesTab</name>
+    <message>
+        <location filename="../qt/RawFilesTab.ui" line="14"/>
+        <source>RAW Files</source>
+        <translation>RAW檔</translation>
+    </message>
+    <message>
+        <location filename="../qt/RawFilesTab.ui" line="22"/>
+        <source>Color Adjustment</source>
+        <translation>色彩調整</translation>
+    </message>
+    <message>
+        <location filename="../qt/RawFilesTab.ui" line="31"/>
+        <source>Brightness</source>
+        <translation>亮度</translation>
+    </message>
+    <message>
+        <location filename="../qt/RawFilesTab.ui" line="48"/>
+        <source>Red Scale</source>
+        <translation>紅色比率</translation>
+    </message>
+    <message>
+        <location filename="../qt/RawFilesTab.ui" line="65"/>
+        <source>Blue Scale</source>
+        <translation>藍色比率</translation>
+    </message>
+    <message>
+        <location filename="../qt/RawFilesTab.ui" line="85"/>
+        <source>White Balance</source>
+        <translation>白平衡</translation>
+    </message>
+    <message>
+        <location filename="../qt/RawFilesTab.ui" line="91"/>
+        <source>No White Balance Processing</source>
+        <translation>沒有白平衡處理</translation>
+    </message>
+    <message>
+        <location filename="../qt/RawFilesTab.ui" line="98"/>
+        <source>Use Camera White Balance</source>
+        <translation>使用相機白平衡</translation>
+    </message>
+    <message>
+        <location filename="../qt/RawFilesTab.ui" line="110"/>
+        <source>Bayer Matrix Transformation</source>
+        <translation>Bayer矩陣轉換</translation>
+    </message>
+    <message>
+        <location filename="../qt/RawFilesTab.ui" line="116"/>
+        <source>Bilinear Interpolation</source>
+        <translation>雙線性內插</translation>
+    </message>
+    <message>
+        <location filename="../qt/RawFilesTab.ui" line="136"/>
+        <source>Adaptive Homogeneity-Directed (AHD) Interpolation</source>
+        <translation>自調適均質性導向(AHD)內插法</translation>
+    </message>
+    <message>
+        <location filename="../qt/RawFilesTab.ui" line="156"/>
+        <source>Use Bayer Drizzle algorithm (no interpolation, no debayerization)</source>
+        <translation>使用Bayer Drizzle (無內插，不解譯Bayer矩陣)</translation>
+    </message>
+    <message>
+        <location filename="../qt/RawFilesTab.ui" line="172"/>
+        <source>This option uses the Bayer matrix as is. No interpolation is done and each pixel is given only primary components from the matrix.</source>
+        <translation>本選項不對Bayer矩陣作任何更動與內插，每個像元只取Bayer矩陣中原有的顏色。</translation>
+    </message>
+    <message>
+        <location filename="../qt/RawFilesTab.ui" line="198"/>
+        <source>Create super- pixels from the raw Bayer matrix (no interpolation)</source>
+        <translation>自原始Bayer矩陣產生大像元 (無內插)</translation>
+    </message>
+    <message>
+        <location filename="../qt/RawFilesTab.ui" line="214"/>
+        <source>This option uses the Bayer matrix to create one super-pixel from each group of 4 pixels (RGBG). The sizes of the resulting image are thus divided by two.</source>
+        <translation>本選項將以Bayer矩陣中每四個GRGB像元合併成一個大像元，因此產生的影像長寬將各減半。</translation>
+    </message>
+    <message>
+        <location filename="../qt/RawFilesTab.ui" line="230"/>
+        <source>Set the black point to 0</source>
+        <translation>設定黑色值為0</translation>
     </message>
 </context>
 </TS>

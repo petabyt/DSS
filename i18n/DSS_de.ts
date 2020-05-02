@@ -414,9 +414,84 @@ Fügen Sie die zu stackenden Bilderlisten im Auswahlfeld hinzu und klicken Sie a
 <context>
     <name>FitsFilesTab</name>
     <message>
-        <location filename="../qt/FitsFilesTab.ui" line="16"/>
-        <source>Form</source>
-        <translation type="unfinished"></translation>
+        <location filename="../qt/FitsFilesTab.ui" line="14"/>
+        <source>FITS Files</source>
+        <translation>FITS Dateien</translation>
+    </message>
+    <message>
+        <location filename="../qt/FitsFilesTab.ui" line="35"/>
+        <source>Monochrome 16 bit FITS Files are RAW files created by a DSLR or a color CCD camera</source>
+        <translation>Monochrome 16 Bit FITS Dateien sind RAW Dateien mit einer DSLR erstellt oder einer Farb-CCD Kamera</translation>
+    </message>
+    <message>
+        <location filename="../qt/FitsFilesTab.ui" line="49"/>
+        <source>Camera:</source>
+        <translation>Kamera:</translation>
+    </message>
+    <message>
+        <location filename="../qt/FitsFilesTab.ui" line="63"/>
+        <source>Color Adjistment</source>
+        <translation>Farbanpassung</translation>
+    </message>
+    <message>
+        <location filename="../qt/FitsFilesTab.ui" line="102"/>
+        <source>Brightness</source>
+        <translation>Helligkeit</translation>
+    </message>
+    <message>
+        <location filename="../qt/FitsFilesTab.ui" line="109"/>
+        <source>Red scale</source>
+        <translation>Rot-Scala</translation>
+    </message>
+    <message>
+        <location filename="../qt/FitsFilesTab.ui" line="116"/>
+        <source>Blue scale</source>
+        <translation>Blau-Scala</translation>
+    </message>
+    <message>
+        <location filename="../qt/FitsFilesTab.ui" line="126"/>
+        <source>Bayer Pattern Filter used</source>
+        <translation>Bayer Muster Filter verwenden</translation>
+    </message>
+    <message>
+        <location filename="../qt/FitsFilesTab.ui" line="150"/>
+        <source>Bayer Matrix Transformation</source>
+        <translation>Bayer Matrix Umwandlung</translation>
+    </message>
+    <message>
+        <location filename="../qt/FitsFilesTab.ui" line="159"/>
+        <source>Bilinear Interpolation</source>
+        <translation>Bilineare Interpolation</translation>
+    </message>
+    <message>
+        <location filename="../qt/FitsFilesTab.ui" line="179"/>
+        <source>Adaptive Homogeneity-Directed (AHD) Interpolation</source>
+        <translation>Adaptive Homogeneity-Directed Interpolation (AHD)</translation>
+    </message>
+    <message>
+        <location filename="../qt/FitsFilesTab.ui" line="199"/>
+        <source>Use Bayer Drizzle algorithm (no interpolation, no debayerization)</source>
+        <translation>Bayer Drizzle Algorithmus anwenden (keine Interpolation, keine Debayerisation)</translation>
+    </message>
+    <message>
+        <location filename="../qt/FitsFilesTab.ui" line="215"/>
+        <source>This option uses the Bayer matrix as is. No interpolation is done and each pixel is given only primary components from the matrix.</source>
+        <translation>Diese Option verwendet auch die Bayer-Matrix. Es wird aber nicht interpoliert und jedes Pixel erhält nur die Basiskomponenten des Rasters.</translation>
+    </message>
+    <message>
+        <location filename="../qt/FitsFilesTab.ui" line="238"/>
+        <source>Create super-pixels from the raw Bayer matrix (no interpolation)</source>
+        <translation>Erstellen von Super-Pixel mit der reinen Bayer-Matrix (keine Interpolation)</translation>
+    </message>
+    <message>
+        <location filename="../qt/FitsFilesTab.ui" line="254"/>
+        <source>This option uses the Bayer matrix to create one super-pixel from each group of 4 pixels (RGBG). The sizes of the resulting image are thus divided by two.</source>
+        <translation>Diese Option verwendet die Bayer-Matrix um aus jeder 4er Pixelgruppe (RGBG) ein Superpixel zu erstellen. Die Größe des fertigen Bildes halbiert sich dadurch.</translation>
+    </message>
+    <message>
+        <location filename="../qt/FitsFilesTab.ui" line="267"/>
+        <source>Force use of unsigned values when signed values are stored</source>
+        <translation>Erzwungene Verwendung von unsignierten Werten, wenn signierte Werte gespeichert sind</translation>
     </message>
 </context>
 <context>
@@ -429,7 +504,7 @@ Fügen Sie die zu stackenden Bilderlisten im Auswahlfeld hinzu und klicken Sie a
     <message>
         <location filename="../qt/main.cpp" line="14"/>
         <source>Apply</source>
-        <translation type="unfinished"></translation>
+        <translation>Anwenden</translation>
     </message>
     <message>
         <location filename="../qt/main.cpp" line="15"/>
@@ -445,6 +520,97 @@ Fügen Sie die zu stackenden Bilderlisten im Auswahlfeld hinzu und klicken Sie a
         <location filename="../qt/main.cpp" line="17"/>
         <source>OK</source>
         <translation>OK</translation>
+    </message>
+</context>
+<context>
+    <name>RawDDPSettings</name>
+    <message>
+        <location filename="../qt/RawDDPSettings.ui" line="14"/>
+        <source>RAW/FITS Digital Development Process Settings</source>
+        <translation>RAW/FITS Einstellungen zum digitalen Entwicklungsprozess</translation>
+    </message>
+</context>
+<context>
+    <name>RawFilesTab</name>
+    <message>
+        <location filename="../qt/RawFilesTab.ui" line="14"/>
+        <source>RAW Files</source>
+        <translation>RAW Dateien</translation>
+    </message>
+    <message>
+        <location filename="../qt/RawFilesTab.ui" line="22"/>
+        <source>Color Adjustment</source>
+        <translation>Farbanpassung</translation>
+    </message>
+    <message>
+        <location filename="../qt/RawFilesTab.ui" line="31"/>
+        <source>Brightness</source>
+        <translation>Helligkeit</translation>
+    </message>
+    <message>
+        <location filename="../qt/RawFilesTab.ui" line="48"/>
+        <source>Red Scale</source>
+        <translation>Rot-Scala</translation>
+    </message>
+    <message>
+        <location filename="../qt/RawFilesTab.ui" line="65"/>
+        <source>Blue Scale</source>
+        <translation>Blau-Scala</translation>
+    </message>
+    <message>
+        <location filename="../qt/RawFilesTab.ui" line="85"/>
+        <source>White Balance</source>
+        <translation>Weißabgleich</translation>
+    </message>
+    <message>
+        <location filename="../qt/RawFilesTab.ui" line="91"/>
+        <source>No White Balance Processing</source>
+        <translation>Keine Weißabgleichverarbeitung</translation>
+    </message>
+    <message>
+        <location filename="../qt/RawFilesTab.ui" line="98"/>
+        <source>Use Camera White Balance</source>
+        <translation>Weißabgleich der Kamera verwenden</translation>
+    </message>
+    <message>
+        <location filename="../qt/RawFilesTab.ui" line="110"/>
+        <source>Bayer Matrix Transformation</source>
+        <translation>Bayer Matrix Umwandlung</translation>
+    </message>
+    <message>
+        <location filename="../qt/RawFilesTab.ui" line="116"/>
+        <source>Bilinear Interpolation</source>
+        <translation>Bilineare Interpolation</translation>
+    </message>
+    <message>
+        <location filename="../qt/RawFilesTab.ui" line="136"/>
+        <source>Adaptive Homogeneity-Directed (AHD) Interpolation</source>
+        <translation>Adaptive Homogeneity-Directed Interpolation (AHD)</translation>
+    </message>
+    <message>
+        <location filename="../qt/RawFilesTab.ui" line="156"/>
+        <source>Use Bayer Drizzle algorithm (no interpolation, no debayerization)</source>
+        <translation>Bayer Drizzle Algorithmus anwenden (keine Interpolation, keine Debayerisation)</translation>
+    </message>
+    <message>
+        <location filename="../qt/RawFilesTab.ui" line="172"/>
+        <source>This option uses the Bayer matrix as is. No interpolation is done and each pixel is given only primary components from the matrix.</source>
+        <translation>Diese Option verwendet auch die Bayer-Matrix. Es wird aber nicht interpoliert und jedes Pixel erhält nur die Basiskomponenten des Rasters.</translation>
+    </message>
+    <message>
+        <location filename="../qt/RawFilesTab.ui" line="198"/>
+        <source>Create super- pixels from the raw Bayer matrix (no interpolation)</source>
+        <translation>Erstellen von Super-Pixel mit der reinen Bayer-Matrix (keine Interpolation)</translation>
+    </message>
+    <message>
+        <location filename="../qt/RawFilesTab.ui" line="214"/>
+        <source>This option uses the Bayer matrix to create one super-pixel from each group of 4 pixels (RGBG). The sizes of the resulting image are thus divided by two.</source>
+        <translation>Diese Option verwendet die Bayer-Matrix um aus jeder 4er Pixelgruppe (RGBG) ein Superpixel zu erstellen. Die Größe des fertigen Bildes halbiert sich dadurch.</translation>
+    </message>
+    <message>
+        <location filename="../qt/RawFilesTab.ui" line="230"/>
+        <source>Set the black point to 0</source>
+        <translation>Schwarzpunkt auf 0 setzen</translation>
     </message>
 </context>
 </TS>
