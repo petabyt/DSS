@@ -220,7 +220,7 @@ Add the file lists you want to stack and click OK to start the stacking processe
     <message>
         <location filename="../qt/BatchStacking.ui" line="54"/>
         <source>Clear List</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Smazat seznam</translation>
     </message>
 </context>
 <context>
@@ -252,147 +252,147 @@ Add the file lists you want to stack and click OK to start the stacking processe
     <message>
         <location filename="../qt/ExplorerBar.ui" line="35"/>
         <source>Registering and Stacking</source>
-        <translation type="unfinished"></translation>
+        <translation>Zarovnání a sloučení</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="80"/>
         <source>Open picture files...</source>
-        <translation type="unfinished"></translation>
+        <translation>Otevřít obrazové soubory...</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="90"/>
         <source>dark files...</source>
-        <translation type="unfinished"></translation>
+        <translation>temného pozadí...</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="103"/>
         <source>flat files...</source>
-        <translation type="unfinished"></translation>
+        <translation>vyrovnání jasu...</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="113"/>
         <source>dark flat files...</source>
-        <translation type="unfinished"></translation>
+        <translation>vyrovnání temného pozadí...</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="123"/>
         <source>offset/bias files...</source>
-        <translation type="unfinished"></translation>
+        <translation>vyrovnání zkreslení...</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="146"/>
         <source>Open a File List...</source>
-        <translation type="unfinished"></translation>
+        <translation>Otevřít seznam...</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="153"/>
         <source>Save the FIle List...</source>
-        <translation type="unfinished"></translation>
+        <translation>Uložit seznam...</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="176"/>
         <source>Clear List</source>
-        <translation type="unfinished"></translation>
+        <translation>Smazat seznam</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="207"/>
         <source>Check all</source>
-        <translation type="unfinished"></translation>
+        <translation>Zvolit vše</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="214"/>
         <source>Check above a threshold...</source>
-        <translation type="unfinished"></translation>
+        <translation>Volba dosažení prahu...</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="221"/>
         <source>Uncheck all</source>
-        <translation type="unfinished"></translation>
+        <translation>Nic nezvolit</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="252"/>
         <source>Register checked pictures...</source>
-        <translation type="unfinished"></translation>
+        <translation>Zarovnat vybrané snímky...</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="259"/>
         <source>Compute offsets...</source>
-        <translation type="unfinished"></translation>
+        <translation>Výpočet zkreslení...</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="266"/>
         <source>Stack checked pictures...</source>
-        <translation type="unfinished"></translation>
+        <translation>Sloučit zvolené obrazy...</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="273"/>
         <source>Batch stacking...</source>
-        <translation type="unfinished"></translation>
+        <translation>Skupinové sloučení...</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="286"/>
         <source>Processing</source>
-        <translation type="unfinished"></translation>
+        <translation>Zpracování</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="307"/>
         <source>Open picture file...</source>
-        <translation type="unfinished"></translation>
+        <translation>Otevřít obrazový soubor...</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="314"/>
         <source>Copy current picture to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopie aktuálního obrazu do schránky</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="321"/>
         <source>Create a Star Mask...</source>
-        <translation type="unfinished"></translation>
+        <translation>Vytvoření masky hvězd...</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="328"/>
         <source>Save picture to file...</source>
-        <translation type="unfinished"></translation>
+        <translation>Uložit obraz do souboru...</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="338"/>
         <source>Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Nastavení</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="359"/>
         <source>Settings...</source>
-        <translation type="unfinished"></translation>
+        <translation>Nastavení...</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="369"/>
         <source>Raw/FITS DDP Settings...</source>
-        <translation type="unfinished"></translation>
+        <translation>Nastavení Raw/FITS DDP...</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="379"/>
         <source>Load...</source>
-        <translation type="unfinished"></translation>
+        <translation>Načíst...</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="389"/>
         <source>Save...</source>
-        <translation type="unfinished"></translation>
+        <translation>Uložit...</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="399"/>
         <source>Recommended...</source>
-        <translation type="unfinished"></translation>
+        <translation>Doporučení...</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="406"/>
         <source>About DeepSkyStacker...</source>
-        <translation type="unfinished"></translation>
+        <translation>O programu DeepSkyStacker...</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="413"/>
         <source>DeepSkyStacker&apos;s Help...</source>
-        <translation type="unfinished"></translation>
+        <translation>Nápověda programu DeepSkyStacker...</translation>
     </message>
 </context>
 <context>

@@ -220,7 +220,7 @@ Add the file lists you want to stack and click OK to start the stacking processe
     <message>
         <location filename="../qt/BatchStacking.ui" line="54"/>
         <source>Clear List</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Liste Löschen</translation>
     </message>
 </context>
 <context>
@@ -252,147 +252,147 @@ Add the file lists you want to stack and click OK to start the stacking processe
     <message>
         <location filename="../qt/ExplorerBar.ui" line="35"/>
         <source>Registering and Stacking</source>
-        <translation type="unfinished"></translation>
+        <translation>Registrieren und Stacken</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="80"/>
         <source>Open picture files...</source>
-        <translation type="unfinished"></translation>
+        <translation>Lightframes öffnen...</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="90"/>
         <source>dark files...</source>
-        <translation type="unfinished"></translation>
+        <translation>Darkframes...</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="103"/>
         <source>flat files...</source>
-        <translation type="unfinished"></translation>
+        <translation>Flatframes...</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="113"/>
         <source>dark flat files...</source>
-        <translation type="unfinished"></translation>
+        <translation>Dark/Flatframes...</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="123"/>
         <source>offset/bias files...</source>
-        <translation type="unfinished"></translation>
+        <translation>Offset/Biasframes...</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="146"/>
         <source>Open a File List...</source>
-        <translation type="unfinished"></translation>
+        <translation>Dateiliste öffnen...</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="153"/>
         <source>Save the FIle List...</source>
-        <translation type="unfinished"></translation>
+        <translation>Dateiliste speichern...</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="176"/>
         <source>Clear List</source>
-        <translation type="unfinished"></translation>
+        <translation>Liste Löschen</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="207"/>
         <source>Check all</source>
-        <translation type="unfinished"></translation>
+        <translation>Alle auswählen</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="214"/>
         <source>Check above a threshold...</source>
-        <translation type="unfinished"></translation>
+        <translation>Auswahl ab einem Wert...</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="221"/>
         <source>Uncheck all</source>
-        <translation type="unfinished"></translation>
+        <translation>Auswahl aufheben</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="252"/>
         <source>Register checked pictures...</source>
-        <translation type="unfinished"></translation>
+        <translation>Ausgewählte Bilder registrieren...</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="259"/>
         <source>Compute offsets...</source>
-        <translation type="unfinished"></translation>
+        <translation>Offsets berechnen...</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="266"/>
         <source>Stack checked pictures...</source>
-        <translation type="unfinished"></translation>
+        <translation>Ausgewählte Bilder stacken...</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="273"/>
         <source>Batch stacking...</source>
-        <translation type="unfinished"></translation>
+        <translation>Stapelverarbeitung...</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="286"/>
         <source>Processing</source>
-        <translation type="unfinished"></translation>
+        <translation>Bearbeitung</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="307"/>
         <source>Open picture file...</source>
-        <translation type="unfinished"></translation>
+        <translation>Bilddatei öffnen...</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="314"/>
         <source>Copy current picture to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Bild in die Zwischenablage kopieren</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="321"/>
         <source>Create a Star Mask...</source>
-        <translation type="unfinished"></translation>
+        <translation>Sternmaske erstellen...</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="328"/>
         <source>Save picture to file...</source>
-        <translation type="unfinished"></translation>
+        <translation>Bild speichern unter...</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="338"/>
         <source>Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Optionen</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="359"/>
         <source>Settings...</source>
-        <translation type="unfinished"></translation>
+        <translation>Einstellungen...</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="369"/>
         <source>Raw/FITS DDP Settings...</source>
-        <translation type="unfinished"></translation>
+        <translation>Raw/FITS DDP Einstellungen...</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="379"/>
         <source>Load...</source>
-        <translation type="unfinished"></translation>
+        <translation>Laden...</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="389"/>
         <source>Save...</source>
-        <translation type="unfinished"></translation>
+        <translation>Speichern...</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="399"/>
         <source>Recommended...</source>
-        <translation type="unfinished"></translation>
+        <translation>Empfehlung...</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="406"/>
         <source>About DeepSkyStacker...</source>
-        <translation type="unfinished"></translation>
+        <translation>Über DeepSkyStacker...</translation>
     </message>
     <message>
         <location filename="../qt/ExplorerBar.ui" line="413"/>
         <source>DeepSkyStacker&apos;s Help...</source>
-        <translation type="unfinished"></translation>
+        <translation>DeepSkyStacker&apos;s Hilfe...</translation>
     </message>
 </context>
 <context>
