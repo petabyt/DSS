@@ -2,6 +2,7 @@
 #include "ExplorerBar.h"
 #include "ui_ExplorerBar.h"
 #include "About.h"
+#include "RawDDPSettings.h"
 #include <iostream>
 
 ExplorerBar::ExplorerBar(QWidget *parent) :
@@ -24,6 +25,13 @@ void ExplorerBar::linkActivated()
 void ExplorerBar::onAbout()
 {
     About dlg(this);
+
+    dlg.exec();
+}
+
+void ExplorerBar::onOptionsRawDDPSettings()
+{
+    RawDDPSettings dlg(this);
 
     dlg.exec();
 }

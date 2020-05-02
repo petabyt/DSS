@@ -72,11 +72,11 @@
           <number>5</number>
          </property>
          <item>
-          <widget class="ClickLabel" name="label">
+          <widget class="ClickLabel" name="label" native="true">
            <property name="styleSheet">
             <string notr="true"/>
            </property>
-           <property name="text">
+           <property name="text" stdset="0">
             <string>Open picture files...</string>
            </property>
           </widget>
@@ -361,11 +361,11 @@
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="label_14">
+       <widget class="ClickLabel" name="label_14" native="true">
         <property name="styleSheet">
          <string notr="true">margin-left: 30</string>
         </property>
-        <property name="text">
+        <property name="text" stdset="0">
          <string>Raw/FITS DDP Settings...</string>
         </property>
        </widget>
@@ -401,8 +401,8 @@
        </widget>
       </item>
       <item>
-       <widget class="ClickLabel" name="label_18">
-        <property name="text">
+       <widget class="ClickLabel" name="label_18" native="true">
+        <property name="text" stdset="0">
          <string>About DeepSkyStacker...</string>
         </property>
        </widget>
@@ -436,8 +436,8 @@
    <slot>onAbout()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>71</x>
-     <y>714</y>
+     <x>90</x>
+     <y>662</y>
     </hint>
     <hint type="destinationlabel">
      <x>2</x>
@@ -445,9 +445,26 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>label_14</sender>
+   <signal>clicked()</signal>
+   <receiver>ExplorerBar</receiver>
+   <slot>onOptionsRawDDPSettings()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>61</x>
+     <y>569</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>6</x>
+     <y>515</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>linkActivated()</slot>
   <slot>onAbout()</slot>
+  <slot>onOptionsRawDDPSettings()</slot>
  </slots>
 </ui>
