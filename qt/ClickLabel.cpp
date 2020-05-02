@@ -1,3 +1,4 @@
+#include <QFont.h>
 #include "ClickLabel.h"
 
 ClickLabel::ClickLabel(QWidget* parent, Qt::WindowFlags f)
@@ -18,10 +19,14 @@ void ClickLabel::mousePressEvent(QMouseEvent* event)
 
 void ClickLabel::enterEvent(QEvent* event)
 {
-    setStyleSheet("text-decoration: underline");
+    QFont f = font();
+    f.setUnderline(true);
+    setFont(f);
 }
 
 void ClickLabel::leaveEvent(QEvent* event)
 {
-    setStyleSheet("");
+    QFont f = font();
+    f.setUnderline(false);
+    setFont(f);
 }
