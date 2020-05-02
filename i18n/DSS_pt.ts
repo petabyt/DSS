@@ -6,51 +6,51 @@
     <message>
         <location filename="../qt/About.ui" line="14"/>
         <source>About DeepSkyStacker</source>
-        <translation type="unfinished"></translation>
+        <translation>Acerca do DeepSkyStacker</translation>
     </message>
     <message>
         <location filename="../qt/About.ui" line="36"/>
         <source>Language</source>
-        <translation type="unfinished"></translation>
+        <translation>Lingua</translation>
     </message>
     <message>
         <location filename="../qt/About.ui" line="44"/>
         <source>Use the following language at next startup</source>
-        <translation type="unfinished"></translation>
+        <translation>Use a lingua escolhida no proximo inicio</translation>
     </message>
     <message>
         <location filename="../qt/About.ui" line="105"/>
         <source>Check if newer version is available at startup</source>
-        <translation type="unfinished"></translation>
+        <translation>Verifique nova versao disponivel ao comecar</translation>
     </message>
     <message>
         <location filename="../qt/About.cpp" line="14"/>
         <source>DeepSkyStacker version %1</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../qt/About.cpp" line="23"/>
         <source>RAW file decoding by LibRaw (version %1)
 Copyright © 1997-2019 LibRaw LLC</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../qt/About.cpp" line="30"/>
         <source>TIFF file encoding/decoding by LibTIFF (version %1)
 Copyright © 1988-1996 Sam Leffler
 Copyright © 1991-1996 Silicon Graphics, Inc.</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../qt/About.cpp" line="37"/>
         <source>FITS decoding by CFitsIO (version %1)
 Copyright NASA</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../qt/About.cpp" line="45"/>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation>Por defeito</translation>
     </message>
 </context>
 <context>
@@ -58,65 +58,73 @@ Copyright NASA</source>
     <message>
         <location filename="../qt/AlignmentParameters.ui" line="14"/>
         <source>Alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>Alinhamento</translation>
     </message>
     <message>
         <location filename="../qt/AlignmentParameters.ui" line="26"/>
         <source>Transformation used during alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>Transformacao usada no alinhamento</translation>
     </message>
     <message>
         <location filename="../qt/AlignmentParameters.ui" line="37"/>
         <source>Automatic</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatico</translation>
     </message>
     <message>
         <location filename="../qt/AlignmentParameters.ui" line="44"/>
         <source>Bilinear</source>
-        <translation type="unfinished"></translation>
+        <translation>Bilinear</translation>
     </message>
     <message>
         <location filename="../qt/AlignmentParameters.ui" line="51"/>
         <source>Bisquared</source>
-        <translation type="unfinished"></translation>
+        <translation>Ao quadrado</translation>
     </message>
     <message>
         <location filename="../qt/AlignmentParameters.ui" line="58"/>
         <source>Bicubic</source>
-        <translation type="unfinished"></translation>
+        <translation>Bicubico</translation>
     </message>
     <message>
         <location filename="../qt/AlignmentParameters.ui" line="65"/>
         <source>No alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>Sem alinhamento</translation>
     </message>
     <message>
         <location filename="../qt/AlignmentParameters.cpp" line="23"/>
         <source>Automatic
 
 The alignment method is automatically selected depending on the number of available stars.</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatico
+
+Seleccao do metodo de alinhamento-automatico dependendo do numero de estrelas disponiveis.</translation>
     </message>
     <message>
         <location filename="../qt/AlignmentParameters.cpp" line="26"/>
         <source>Bilinear Alignment
 
 The Bilinear Alignment is used in all cases.</source>
-        <translation type="unfinished"></translation>
+        <translation>Alinhamento Bilinear
+
+O alinhamento bilinear e usado em todos os casos.</translation>
     </message>
     <message>
         <location filename="../qt/AlignmentParameters.cpp" line="29"/>
         <source>Bisquared Alignment
 
 The Bisquared Alignment is used when at least 25 stars are available, else the Bilinear Alignment method is used.</source>
-        <translation type="unfinished"></translation>
+        <translation>Alinhamento ao quadrado
+
+Alinhamento ao quadrado e usado quando 25 estrelas estao disponiveis, difere do metodo de alinhamento Bilinear.</translation>
     </message>
     <message>
         <location filename="../qt/AlignmentParameters.cpp" line="32"/>
         <source>Bicubic Alignment
 
 The Bicubic method is used when at least 40 stars are available, then the Bisquared method is used if 25 to 39 stars are available, then the Bilinear method is used when less than 25 stars are available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Alinhamento Bicubico
+
+Metodo de alinhamento Bicubico e usado quando 40 estrelas estao disponiveis, difere do metodo ao quadrado que utiluliza de 25 a 39 estrelas disponiveis, e metodo Bilinear com 25 estrelas disponiveis.</translation>
     </message>
 </context>
 <context>
@@ -124,7 +132,7 @@ The Bicubic method is used when at least 40 stars are available, then the Bisqua
     <message>
         <location filename="../qt/AskRegistering.ui" line="14"/>
         <source>Unregistered light frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Fotograma- luz nao registado</translation>
     </message>
     <message>
         <location filename="../qt/AskRegistering.ui" line="37"/>
@@ -132,22 +140,25 @@ The Bicubic method is used when at least 40 stars are available, then the Bisqua
 (the stars have not been detected).
 
 Do you want...</source>
-        <translation type="unfinished"></translation>
+        <translation>Fotograma - luz nao registado
+(as estrelas nao detectadas).
+
+ quer...</translation>
     </message>
     <message>
         <location filename="../qt/AskRegistering.ui" line="66"/>
         <source>to register this light frame</source>
-        <translation type="unfinished"></translation>
+        <translation>registar este fotograma de luz</translation>
     </message>
     <message>
         <location filename="../qt/AskRegistering.ui" line="73"/>
         <source>to register all the light frames</source>
-        <translation type="unfinished"></translation>
+        <translation>registar todos os fotogramas de luz</translation>
     </message>
     <message>
         <location filename="../qt/AskRegistering.ui" line="80"/>
         <source>to continue without registering the light frame</source>
-        <translation type="unfinished"></translation>
+        <translation>continuar sem registo do fotograma de luz</translation>
     </message>
 </context>
 <context>
@@ -155,47 +166,47 @@ Do you want...</source>
     <message>
         <location filename="../qt/BackgroundOptions.ui" line="14"/>
         <source>Background Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Opcoes de Background</translation>
     </message>
     <message>
         <location filename="../qt/BackgroundOptions.ui" line="20"/>
         <source>Calibration Method</source>
-        <translation type="unfinished"></translation>
+        <translation>Metodo de Calibragem</translation>
     </message>
     <message>
         <location filename="../qt/BackgroundOptions.ui" line="28"/>
         <source>Linear</source>
-        <translation type="unfinished"></translation>
+        <translation>Linear</translation>
     </message>
     <message>
         <location filename="../qt/BackgroundOptions.ui" line="35"/>
         <source>Rational</source>
-        <translation type="unfinished"></translation>
+        <translation>Racional</translation>
     </message>
     <message>
         <location filename="../qt/BackgroundOptions.ui" line="60"/>
         <source>RGB Background Calibration Method</source>
-        <translation type="unfinished"></translation>
+        <translation>RGB Background Metodo de Calibracao</translation>
     </message>
     <message>
         <location filename="../qt/BackgroundOptions.ui" line="68"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Nada</translation>
     </message>
     <message>
         <location filename="../qt/BackgroundOptions.ui" line="75"/>
         <source>Minimum</source>
-        <translation type="unfinished"></translation>
+        <translation>Minimo</translation>
     </message>
     <message>
         <location filename="../qt/BackgroundOptions.ui" line="82"/>
         <source>Middle</source>
-        <translation type="unfinished"></translation>
+        <translation>Metade</translation>
     </message>
     <message>
         <location filename="../qt/BackgroundOptions.ui" line="89"/>
         <source>Maximum</source>
-        <translation type="unfinished"></translation>
+        <translation>Maximo</translation>
     </message>
 </context>
 <context>
@@ -203,24 +214,26 @@ Do you want...</source>
     <message>
         <location filename="../qt/BatchStacking.ui" line="14"/>
         <source>Batch Stacking</source>
-        <translation type="unfinished"></translation>
+        <translation>Integrando serie</translation>
     </message>
     <message>
         <location filename="../qt/BatchStacking.ui" line="20"/>
         <source>This dialog is used to launch the stacking process from existing image lists.
 
 Add the file lists you want to stack and click OK to start the stacking processes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dialogo  no processo de lancamento - integracao imagens existentes em lista.
+
+Adicione 1º ficheiro da lista que voce quer integrar e clique OK para comecar processo integracao.</translation>
     </message>
     <message>
         <location filename="../qt/BatchStacking.ui" line="34"/>
         <source>Add File Lists...</source>
-        <translation type="unfinished"></translation>
+        <translation>Adicione o Ficheiro a Lista...</translation>
     </message>
     <message>
         <location filename="../qt/BatchStacking.ui" line="54"/>
         <source>Clear List</source>
-        <translation type="unfinished">Limpar Lista</translation>
+        <translation>Limpar Lista</translation>
     </message>
 </context>
 <context>
@@ -408,7 +421,7 @@ Add the file lists you want to stack and click OK to start the stacking processe
     <message>
         <location filename="../qt/main.cpp" line="13"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Cancelar</translation>
     </message>
     <message>
         <location filename="../qt/main.cpp" line="14"/>
@@ -428,7 +441,7 @@ Add the file lists you want to stack and click OK to start the stacking processe
     <message>
         <location filename="../qt/main.cpp" line="17"/>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation>OK</translation>
     </message>
 </context>
 </TS>

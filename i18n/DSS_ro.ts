@@ -6,51 +6,54 @@
     <message>
         <location filename="../qt/About.ui" line="14"/>
         <source>About DeepSkyStacker</source>
-        <translation type="unfinished"></translation>
+        <translation>Despre DeepSkyStacker</translation>
     </message>
     <message>
         <location filename="../qt/About.ui" line="36"/>
         <source>Language</source>
-        <translation type="unfinished"></translation>
+        <translation>Limba</translation>
     </message>
     <message>
         <location filename="../qt/About.ui" line="44"/>
         <source>Use the following language at next startup</source>
-        <translation type="unfinished"></translation>
+        <translation>Foloseste urmatoarea limba la repornire</translation>
     </message>
     <message>
         <location filename="../qt/About.ui" line="105"/>
         <source>Check if newer version is available at startup</source>
-        <translation type="unfinished"></translation>
+        <translation>Verifica la pornire daca este disponibila o versiune mai noua</translation>
     </message>
     <message>
         <location filename="../qt/About.cpp" line="14"/>
         <source>DeepSkyStacker version %1</source>
-        <translation type="unfinished"></translation>
+        <translation>DeepSkyStacker version %1</translation>
     </message>
     <message>
         <location filename="../qt/About.cpp" line="23"/>
         <source>RAW file decoding by LibRaw (version %1)
 Copyright © 1997-2019 LibRaw LLC</source>
-        <translation type="unfinished"></translation>
+        <translation>Decodare fisire RAW de LibRaw (versiune %1)
+Copyright © 1997-2019 LibRaw LLC</translation>
     </message>
     <message>
         <location filename="../qt/About.cpp" line="30"/>
         <source>TIFF file encoding/decoding by LibTIFF (version %1)
 Copyright © 1988-1996 Sam Leffler
 Copyright © 1991-1996 Silicon Graphics, Inc.</source>
-        <translation type="unfinished"></translation>
+        <translation>Codare/decodare fisiere TIFF de LibTIFF (versiune %1)
+Copyright © 1988-1996 Sam Leffler\nCopyright © 1991-1996 Silicon Graphics, Inc.</translation>
     </message>
     <message>
         <location filename="../qt/About.cpp" line="37"/>
         <source>FITS decoding by CFitsIO (version %1)
 Copyright NASA</source>
-        <translation type="unfinished"></translation>
+        <translation>Decodare FITS de CFitsIO (versiune %1)
+Copyright NASA</translation>
     </message>
     <message>
         <location filename="../qt/About.cpp" line="45"/>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation>Implicit</translation>
     </message>
 </context>
 <context>
@@ -58,65 +61,73 @@ Copyright NASA</source>
     <message>
         <location filename="../qt/AlignmentParameters.ui" line="14"/>
         <source>Alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>Aliniere</translation>
     </message>
     <message>
         <location filename="../qt/AlignmentParameters.ui" line="26"/>
         <source>Transformation used during alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>Transformare folosita in decursul alinierii</translation>
     </message>
     <message>
         <location filename="../qt/AlignmentParameters.ui" line="37"/>
         <source>Automatic</source>
-        <translation type="unfinished"></translation>
+        <translation>Automata</translation>
     </message>
     <message>
         <location filename="../qt/AlignmentParameters.ui" line="44"/>
         <source>Bilinear</source>
-        <translation type="unfinished"></translation>
+        <translation>Biliniara</translation>
     </message>
     <message>
         <location filename="../qt/AlignmentParameters.ui" line="51"/>
         <source>Bisquared</source>
-        <translation type="unfinished"></translation>
+        <translation>Bipatrata</translation>
     </message>
     <message>
         <location filename="../qt/AlignmentParameters.ui" line="58"/>
         <source>Bicubic</source>
-        <translation type="unfinished"></translation>
+        <translation>Bicubica</translation>
     </message>
     <message>
         <location filename="../qt/AlignmentParameters.ui" line="65"/>
         <source>No alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>Fara aliniere</translation>
     </message>
     <message>
         <location filename="../qt/AlignmentParameters.cpp" line="23"/>
         <source>Automatic
 
 The alignment method is automatically selected depending on the number of available stars.</source>
-        <translation type="unfinished"></translation>
+        <translation>Automata
+
+Metoda de aliniament este selectata automat in functie de numarul de stele disponibile.</translation>
     </message>
     <message>
         <location filename="../qt/AlignmentParameters.cpp" line="26"/>
         <source>Bilinear Alignment
 
 The Bilinear Alignment is used in all cases.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aliniament bilinar
+
+Aliniamentul biliniar este folosit in toate cazurile.</translation>
     </message>
     <message>
         <location filename="../qt/AlignmentParameters.cpp" line="29"/>
         <source>Bisquared Alignment
 
 The Bisquared Alignment is used when at least 25 stars are available, else the Bilinear Alignment method is used.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aliniament bipatrat
+
+Aliniamentul bipatrat este utilizat cand sunt disponibile cel putin 25 stele, altfel este utilizata metoda aliniamentului bilinar.</translation>
     </message>
     <message>
         <location filename="../qt/AlignmentParameters.cpp" line="32"/>
         <source>Bicubic Alignment
 
 The Bicubic method is used when at least 40 stars are available, then the Bisquared method is used if 25 to 39 stars are available, then the Bilinear method is used when less than 25 stars are available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aliniamentul bicubic
+
+Metoda bicubica este utilizata cand sunt disponibile cel putin 40 stele, daca sunt disponibile 25 pana la 39 stele este utilizata metoda bipatrata, sau metoda biliniara daca numarul de stele disponibile este mai mic de 25.</translation>
     </message>
 </context>
 <context>
@@ -124,7 +135,7 @@ The Bicubic method is used when at least 40 stars are available, then the Bisqua
     <message>
         <location filename="../qt/AskRegistering.ui" line="14"/>
         <source>Unregistered light frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Cadre light neinregistrate</translation>
     </message>
     <message>
         <location filename="../qt/AskRegistering.ui" line="37"/>
@@ -132,22 +143,25 @@ The Bicubic method is used when at least 40 stars are available, then the Bisqua
 (the stars have not been detected).
 
 Do you want...</source>
-        <translation type="unfinished"></translation>
+        <translation>Cadrul light nu este inregistrat
+(stelele nu au fost detectate).
+
+Vreti sa...</translation>
     </message>
     <message>
         <location filename="../qt/AskRegistering.ui" line="66"/>
         <source>to register this light frame</source>
-        <translation type="unfinished"></translation>
+        <translation>pentru a inregistra acest cadru light</translation>
     </message>
     <message>
         <location filename="../qt/AskRegistering.ui" line="73"/>
         <source>to register all the light frames</source>
-        <translation type="unfinished"></translation>
+        <translation>pentru a inregistra toate cadrele light</translation>
     </message>
     <message>
         <location filename="../qt/AskRegistering.ui" line="80"/>
         <source>to continue without registering the light frame</source>
-        <translation type="unfinished"></translation>
+        <translation>pentru a continua fara inregistrarea cadrului light</translation>
     </message>
 </context>
 <context>
@@ -155,47 +169,47 @@ Do you want...</source>
     <message>
         <location filename="../qt/BackgroundOptions.ui" line="14"/>
         <source>Background Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Optiuni fundal</translation>
     </message>
     <message>
         <location filename="../qt/BackgroundOptions.ui" line="20"/>
         <source>Calibration Method</source>
-        <translation type="unfinished"></translation>
+        <translation>Metoda calibrare</translation>
     </message>
     <message>
         <location filename="../qt/BackgroundOptions.ui" line="28"/>
         <source>Linear</source>
-        <translation type="unfinished"></translation>
+        <translation>Linear</translation>
     </message>
     <message>
         <location filename="../qt/BackgroundOptions.ui" line="35"/>
         <source>Rational</source>
-        <translation type="unfinished"></translation>
+        <translation>Rational</translation>
     </message>
     <message>
         <location filename="../qt/BackgroundOptions.ui" line="60"/>
         <source>RGB Background Calibration Method</source>
-        <translation type="unfinished"></translation>
+        <translation>Metoda calibrare fundal RGB</translation>
     </message>
     <message>
         <location filename="../qt/BackgroundOptions.ui" line="68"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Fara</translation>
     </message>
     <message>
         <location filename="../qt/BackgroundOptions.ui" line="75"/>
         <source>Minimum</source>
-        <translation type="unfinished"></translation>
+        <translation>Minim</translation>
     </message>
     <message>
         <location filename="../qt/BackgroundOptions.ui" line="82"/>
         <source>Middle</source>
-        <translation type="unfinished"></translation>
+        <translation>Mediu</translation>
     </message>
     <message>
         <location filename="../qt/BackgroundOptions.ui" line="89"/>
         <source>Maximum</source>
-        <translation type="unfinished"></translation>
+        <translation>Maxim</translation>
     </message>
 </context>
 <context>
@@ -203,24 +217,25 @@ Do you want...</source>
     <message>
         <location filename="../qt/BatchStacking.ui" line="14"/>
         <source>Batch Stacking</source>
-        <translation type="unfinished"></translation>
+        <translation>Stackare mod batch</translation>
     </message>
     <message>
         <location filename="../qt/BatchStacking.ui" line="20"/>
         <source>This dialog is used to launch the stacking process from existing image lists.
 
 Add the file lists you want to stack and click OK to start the stacking processes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Acest dialog este utilizat pentru pornirea procesului de stackare folosind lista de imagini existente.
+Adaugati liste de fisiere dorite pentru stackare si apasati OK pentru a porni procesul de stackare.</translation>
     </message>
     <message>
         <location filename="../qt/BatchStacking.ui" line="34"/>
         <source>Add File Lists...</source>
-        <translation type="unfinished"></translation>
+        <translation>Adauga lista fisiere...</translation>
     </message>
     <message>
         <location filename="../qt/BatchStacking.ui" line="54"/>
         <source>Clear List</source>
-        <translation type="unfinished">Goleste lista</translation>
+        <translation>Goleste lista</translation>
     </message>
 </context>
 <context>
@@ -408,7 +423,7 @@ Add the file lists you want to stack and click OK to start the stacking processe
     <message>
         <location filename="../qt/main.cpp" line="13"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Intrerupe</translation>
     </message>
     <message>
         <location filename="../qt/main.cpp" line="14"/>
@@ -428,7 +443,7 @@ Add the file lists you want to stack and click OK to start the stacking processe
     <message>
         <location filename="../qt/main.cpp" line="17"/>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation>OK</translation>
     </message>
 </context>
 </TS>
