@@ -6,51 +6,55 @@
     <message>
         <location filename="../qt/About.ui" line="14"/>
         <source>About DeepSkyStacker</source>
-        <translation type="unfinished"></translation>
+        <translation>DerinUzayİstifleyicsi hakkında</translation>
     </message>
     <message>
         <location filename="../qt/About.ui" line="36"/>
         <source>Language</source>
-        <translation type="unfinished"></translation>
+        <translation>Dil</translation>
     </message>
     <message>
         <location filename="../qt/About.ui" line="44"/>
         <source>Use the following language at next startup</source>
-        <translation type="unfinished"></translation>
+        <translation>Bir dahaki başlatmada bu dili kullan</translation>
     </message>
     <message>
         <location filename="../qt/About.ui" line="105"/>
         <source>Check if newer version is available at startup</source>
-        <translation type="unfinished"></translation>
+        <translation>Başlangıçta yeni bir sürümün olup olmadığını sorgula</translation>
     </message>
     <message>
         <location filename="../qt/About.cpp" line="14"/>
         <source>DeepSkyStacker version %1</source>
-        <translation type="unfinished"></translation>
+        <translation>DeepSkyStacker version %1</translation>
     </message>
     <message>
         <location filename="../qt/About.cpp" line="23"/>
         <source>RAW file decoding by LibRaw (version %1)
 Copyright © 1997-2019 LibRaw LLC</source>
-        <translation type="unfinished"></translation>
+        <translation>RAW files decoding by DCRAW (version %1)
+Copyright © 1997-2016 Dave Coffin</translation>
     </message>
     <message>
         <location filename="../qt/About.cpp" line="30"/>
         <source>TIFF file encoding/decoding by LibTIFF (version %1)
 Copyright © 1988-1996 Sam Leffler
 Copyright © 1991-1996 Silicon Graphics, Inc.</source>
-        <translation type="unfinished"></translation>
+        <translation>TIFF dosyalrın kodlaması LibTIFF (sürüm %1) ile
+Telif Hakkı © 1988-1996 Sam Leffler
+Telif Hakkı © 1991-1996 Silicon Graphics, Inc.</translation>
     </message>
     <message>
         <location filename="../qt/About.cpp" line="37"/>
         <source>FITS decoding by CFitsIO (version %1)
 Copyright NASA</source>
-        <translation type="unfinished"></translation>
+        <translation>FITS kod çözümü CFitsIO (sürümü %1) ile
+Telif Hakkı: NASA</translation>
     </message>
     <message>
         <location filename="../qt/About.cpp" line="45"/>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation>Varsayılan</translation>
     </message>
 </context>
 <context>
@@ -58,65 +62,73 @@ Copyright NASA</source>
     <message>
         <location filename="../qt/AlignmentParameters.ui" line="14"/>
         <source>Alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>Hizalama</translation>
     </message>
     <message>
         <location filename="../qt/AlignmentParameters.ui" line="26"/>
         <source>Transformation used during alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>Hizalama sırasında kullanılan dönüşüm</translation>
     </message>
     <message>
         <location filename="../qt/AlignmentParameters.ui" line="37"/>
         <source>Automatic</source>
-        <translation type="unfinished"></translation>
+        <translation>Otomatik</translation>
     </message>
     <message>
         <location filename="../qt/AlignmentParameters.ui" line="44"/>
         <source>Bilinear</source>
-        <translation type="unfinished"></translation>
+        <translation>Çift çizgili</translation>
     </message>
     <message>
         <location filename="../qt/AlignmentParameters.ui" line="51"/>
         <source>Bisquared</source>
-        <translation type="unfinished"></translation>
+        <translation>Çift kareli</translation>
     </message>
     <message>
         <location filename="../qt/AlignmentParameters.ui" line="58"/>
         <source>Bicubic</source>
-        <translation type="unfinished"></translation>
+        <translation>Çift küplü</translation>
     </message>
     <message>
         <location filename="../qt/AlignmentParameters.ui" line="65"/>
         <source>No alignment</source>
-        <translation type="unfinished"></translation>
+        <translation>Hizalama yok</translation>
     </message>
     <message>
         <location filename="../qt/AlignmentParameters.cpp" line="23"/>
         <source>Automatic
 
 The alignment method is automatically selected depending on the number of available stars.</source>
-        <translation type="unfinished"></translation>
+        <translation>Otamatik
+
+Hizalama yöntemi yıldızların sayısına bağlı olarak otamatik olarak seçilir.</translation>
     </message>
     <message>
         <location filename="../qt/AlignmentParameters.cpp" line="26"/>
         <source>Bilinear Alignment
 
 The Bilinear Alignment is used in all cases.</source>
-        <translation type="unfinished"></translation>
+        <translation>İki Çizgili Hizalama
+
+İki Çizgili Hizalama her koşulda kullanılır.</translation>
     </message>
     <message>
         <location filename="../qt/AlignmentParameters.cpp" line="29"/>
         <source>Bisquared Alignment
 
 The Bisquared Alignment is used when at least 25 stars are available, else the Bilinear Alignment method is used.</source>
-        <translation type="unfinished"></translation>
+        <translation>İki Kareli Hizalama
+
+İki Kareli Hizalama en az 25 yıldızın olduğu durumda yapılabilir, aksi takdirde İki Çizgili Hizalama yöntemi kullanılır.</translation>
     </message>
     <message>
         <location filename="../qt/AlignmentParameters.cpp" line="32"/>
         <source>Bicubic Alignment
 
 The Bicubic method is used when at least 40 stars are available, then the Bisquared method is used if 25 to 39 stars are available, then the Bilinear method is used when less than 25 stars are available.</source>
-        <translation type="unfinished"></translation>
+        <translation>İki Küplüi Hizalama
+
+İki Küplü Hizalama en az 40 yıldızın olduğu durumda yapılabilir, 25-39 yıldız varsa İki kareli Yöntem, aksi takdirde İki Çizgili Hizalama yöntemi kullanılır.</translation>
     </message>
 </context>
 <context>
@@ -124,7 +136,7 @@ The Bicubic method is used when at least 40 stars are available, then the Bisqua
     <message>
         <location filename="../qt/AskRegistering.ui" line="14"/>
         <source>Unregistered light frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Hizalanmamış görüntü karesi</translation>
     </message>
     <message>
         <location filename="../qt/AskRegistering.ui" line="37"/>
@@ -132,22 +144,25 @@ The Bicubic method is used when at least 40 stars are available, then the Bisqua
 (the stars have not been detected).
 
 Do you want...</source>
-        <translation type="unfinished"></translation>
+        <translation>Bu görüntü hizalanmamış
+(yıldızlar tespit edilemedi). 
+
+Hangisini yapmak istersiniz?</translation>
     </message>
     <message>
         <location filename="../qt/AskRegistering.ui" line="66"/>
         <source>to register this light frame</source>
-        <translation type="unfinished"></translation>
+        <translation>bu görüntü karesini hizala</translation>
     </message>
     <message>
         <location filename="../qt/AskRegistering.ui" line="73"/>
         <source>to register all the light frames</source>
-        <translation type="unfinished"></translation>
+        <translation>bütün görüntü karelerini hizala</translation>
     </message>
     <message>
         <location filename="../qt/AskRegistering.ui" line="80"/>
         <source>to continue without registering the light frame</source>
-        <translation type="unfinished"></translation>
+        <translation>görüntü karelerini hizalamadan devam et</translation>
     </message>
 </context>
 <context>
@@ -155,47 +170,47 @@ Do you want...</source>
     <message>
         <location filename="../qt/BackgroundOptions.ui" line="14"/>
         <source>Background Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Arkaplan Seçenekleri</translation>
     </message>
     <message>
         <location filename="../qt/BackgroundOptions.ui" line="20"/>
         <source>Calibration Method</source>
-        <translation type="unfinished"></translation>
+        <translation>Kalibrasyon Yöntemi</translation>
     </message>
     <message>
         <location filename="../qt/BackgroundOptions.ui" line="28"/>
         <source>Linear</source>
-        <translation type="unfinished"></translation>
+        <translation>Doğrusal</translation>
     </message>
     <message>
         <location filename="../qt/BackgroundOptions.ui" line="35"/>
         <source>Rational</source>
-        <translation type="unfinished"></translation>
+        <translation>Kesirli</translation>
     </message>
     <message>
         <location filename="../qt/BackgroundOptions.ui" line="60"/>
         <source>RGB Background Calibration Method</source>
-        <translation type="unfinished"></translation>
+        <translation>KYM Arkaplan Kalibrasyon Yöntemi</translation>
     </message>
     <message>
         <location filename="../qt/BackgroundOptions.ui" line="68"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Yok</translation>
     </message>
     <message>
         <location filename="../qt/BackgroundOptions.ui" line="75"/>
         <source>Minimum</source>
-        <translation type="unfinished"></translation>
+        <translation>Minimum</translation>
     </message>
     <message>
         <location filename="../qt/BackgroundOptions.ui" line="82"/>
         <source>Middle</source>
-        <translation type="unfinished"></translation>
+        <translation>Orta</translation>
     </message>
     <message>
         <location filename="../qt/BackgroundOptions.ui" line="89"/>
         <source>Maximum</source>
-        <translation type="unfinished"></translation>
+        <translation>En yüksek değer</translation>
     </message>
 </context>
 <context>
@@ -203,24 +218,25 @@ Do you want...</source>
     <message>
         <location filename="../qt/BatchStacking.ui" line="14"/>
         <source>Batch Stacking</source>
-        <translation type="unfinished"></translation>
+        <translation>Toplu istifleme</translation>
     </message>
     <message>
         <location filename="../qt/BatchStacking.ui" line="20"/>
         <source>This dialog is used to launch the stacking process from existing image lists.
 
 Add the file lists you want to stack and click OK to start the stacking processes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bu diyalog var olan görüntü listesinden istifleme işlemini başlatmak için kullanılır.
+İstiflemek istediğin görüntü listesini ekleyin ve istifleme işlemini başlatmak için Tamam&apos;a basın.</translation>
     </message>
     <message>
         <location filename="../qt/BatchStacking.ui" line="34"/>
         <source>Add File Lists...</source>
-        <translation type="unfinished"></translation>
+        <translation>Dosya Listesini ekle...</translation>
     </message>
     <message>
         <location filename="../qt/BatchStacking.ui" line="54"/>
         <source>Clear List</source>
-        <translation type="unfinished">Listeyi temizle</translation>
+        <translation>Listeyi temizle</translation>
     </message>
 </context>
 <context>
@@ -408,7 +424,7 @@ Add the file lists you want to stack and click OK to start the stacking processe
     <message>
         <location filename="../qt/main.cpp" line="13"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>İptal</translation>
     </message>
     <message>
         <location filename="../qt/main.cpp" line="14"/>
@@ -428,7 +444,7 @@ Add the file lists you want to stack and click OK to start the stacking processe
     <message>
         <location filename="../qt/main.cpp" line="17"/>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation>Tamam</translation>
     </message>
 </context>
 </TS>

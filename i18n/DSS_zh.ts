@@ -52,10 +52,6 @@ Copyright NASA</source>
         <source>Default</source>
         <translation>預設</translation>
     </message>
-    <message>
-        <source>Default;English;Français;Español;Italiano;Cesky;Català;Deutsch;Nederlands;Traditional Chinese;Portuguese;Romanian;Russian;Turkish</source>
-        <translation type="obsolete">預設;English;Francais;Espanol;Italiano;Cesky;Catala;Deutsch;Nederlands;Traditional Chinese;葡萄牙?;??尼?;俄文;土耳其</translation>
-    </message>
 </context>
 <context>
     <name>AlignmentParameters</name>
@@ -217,24 +213,26 @@ Do you want...</source>
     <message>
         <location filename="../qt/BatchStacking.ui" line="14"/>
         <source>Batch Stacking</source>
-        <translation type="unfinished"></translation>
+        <translation>批次疊合</translation>
     </message>
     <message>
         <location filename="../qt/BatchStacking.ui" line="20"/>
         <source>This dialog is used to launch the stacking process from existing image lists.
 
 Add the file lists you want to stack and click OK to start the stacking processes.</source>
-        <translation type="unfinished"></translation>
+        <translation>本對話框可用於疊合既有的影像清單
+
+加入您欲疊合的影像清單並按OK鍵以開始疊合</translation>
     </message>
     <message>
         <location filename="../qt/BatchStacking.ui" line="34"/>
         <source>Add File Lists...</source>
-        <translation type="unfinished"></translation>
+        <translation>增加檔案清單</translation>
     </message>
     <message>
         <location filename="../qt/BatchStacking.ui" line="54"/>
         <source>Clear List</source>
-        <translation type="unfinished">清除影像清單</translation>
+        <translation>清除影像清單</translation>
     </message>
 </context>
 <context>
