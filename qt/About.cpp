@@ -14,7 +14,7 @@ About::About(QWidget *parent) :
     strText = QString(QCoreApplication::translate("About", "DeepSkyStacker version %1")).arg("1.0.0.1" /* VERSION_DEEPSKYSTACKER */);
     strText += "<br>";
     strText += /* DSSVER_COPYRIGHT */ "Copyright © 2006-2019 Luc Coiffier;\n\
-        Copyright © 2018-2020 David&nbsp;C.&nbsp;Partridge, Tony&nbsp;Cook, Mat&nbsp;Draper, Simon&nbsp;C.&nbsp;Smith, Vitali&nbsp;Pelenjow, Tomas&nbsp;Tatara";
+        Copyright © 2018-2020 David&nbsp;C.&nbsp;Partridge, Tony&nbsp;Cook, Mat&nbsp;Draper, Simon&nbsp;C.&nbsp;Smith, Vitali&nbsp;Pelenjow, Tomas&nbsp;Tatara, Michal&nbsp;Schulz";
     strText = strText.replace("\n", "<br>");
     strHTML += "<b>" + strText + "</b><br>";
     strText = QString("<a href=\"%1\">%1</a><br><br>").arg("http://deepskystacker.free.fr/");
