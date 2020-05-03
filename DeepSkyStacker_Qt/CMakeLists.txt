@@ -50,23 +50,23 @@ set(UI_FILES
     ui/PostCalibration.ui
     PostCalibration.cpp
     ClickLabel.cpp
+)
+
+set(CORE_FILES
     main.cpp
 )
 
-message(${TRANSLATIONS})
-
 # Update translation files and compile translations to binary form
-qt5_create_translation(QM_FILES 
-    ${UI_FILES}
-    ${TRANSLATIONS}
-)
+qt5_add_translation(QM_FILES ${TRANSLATIONS})
 
 # Build the executable
 add_executable(DeepSkyStacker
+    ${CORE_FILES}
     ${UI_FILES}
     resources.qrc
     ${CMAKE_CURRENT_BINARY_DIR}/translations.qrc
     ${QM_FILES}
 )
 
+target_include_directories(DeepSkyStacker PRIVATE ../DeepSkyStacker/)
 target_link_libraries(DeepSkyStacker Qt5::Widgets)
