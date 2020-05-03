@@ -161,12 +161,12 @@ The comet and the stars will be sharp. This process is twice longer.</string>
       </layout>
      </item>
      <item>
-      <widget class="QLabel" name="label_2">
+      <widget class="QLabel" name="laComet">
        <property name="text">
         <string/>
        </property>
        <property name="pixmap">
-        <string>:/comet/normal.bmp</string>
+        <pixmap/>
        </property>
        <property name="alignment">
         <set>Qt::AlignCenter</set>
@@ -178,5 +178,59 @@ The comet and the stars will be sharp. This process is twice longer.</string>
   </layout>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>radioButton</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>CometStacking</receiver>
+   <slot>onBnClickedStandardStacking(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>121</x>
+     <y>63</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>205</x>
+     <y>35</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>CometStacking</receiver>
+   <slot>onBnClickedCometStacking(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>89</x>
+     <y>160</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>9</x>
+     <y>132</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_3</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>CometStacking</receiver>
+   <slot>onBnClickedAdvancedStacking(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>108</x>
+     <y>255</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>6</x>
+     <y>256</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>onBnClickedStandardStacking(bool)</slot>
+  <slot>onBnClickedCometStacking(bool)</slot>
+  <slot>onBnClickedAdvancedStacking(bool)</slot>
+ </slots>
 </ui>
