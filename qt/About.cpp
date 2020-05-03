@@ -1,8 +1,10 @@
 #include <QDir>
 #include <QSettings>
 #include <QString>
+#include <QDebug>
 #include "About.h"
-#include "ui_About.h"
+#include "ui/ui_About.h"
+#include "DSSVersion.h"
 
 About::About(QWidget *parent) :
     QDialog(parent),
@@ -10,11 +12,17 @@ About::About(QWidget *parent) :
 {
     QString strHTML("<body link=#0000ff></body><img valign=top align=right src=\"qrc:///logo.png\">");
     QString strText;
-    
-    strText = QString(QCoreApplication::translate("About", "DeepSkyStacker version %1")).arg("1.0.0.1" /* VERSION_DEEPSKYSTACKER */);
+    QString copyright = DSSVER_COPYRIGHT;
+
+    QStringList copyrightList = copyright.split(", ");
+    for (auto& i: copyrightList) {
+        i = i.replace(" ", "&nbsp;");
+    }
+    copyright = copyrightList.join(", ");
+
+    strText = QString(QCoreApplication::translate("About", "DeepSkyStacker version %1")).arg(VERSION_DEEPSKYSTACKER);
     strText += "<br>";
-    strText += /* DSSVER_COPYRIGHT */ "Copyright © 2006-2019 Luc Coiffier;\n\
-        Copyright © 2018-2020 David&nbsp;C.&nbsp;Partridge, Tony&nbsp;Cook, Mat&nbsp;Draper, Simon&nbsp;C.&nbsp;Smith, Vitali&nbsp;Pelenjow, Tomas&nbsp;Tatara, Michal&nbsp;Schulz";
+    strText += copyright;
     strText = strText.replace("\n", "<br>");
     strHTML += "<b>" + strText + "</b><br>";
     strText = QString("<a href=\"%1\">%1</a><br><br>").arg("http://deepskystacker.free.fr/");
