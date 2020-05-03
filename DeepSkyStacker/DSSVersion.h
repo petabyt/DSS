@@ -22,7 +22,7 @@ constexpr long DSSBETAEXPIREMONTH = 6L;
 #define FB(arg)					#arg
 
 #ifdef DSSBETA
-#define VERSTRING(M, m, s, b)	FB(M)"."FB(m)"."FB(s)" Beta "FB(b)
+#define VERSTRING(M, m, s, b)	FB(M) "." FB(m) "." FB(s) " Beta " FB(b)
 #define VERSION_DEEPSKYSTACKER	VERSTRING(DSSVER_MAJOR, DSSVER_MINOR, DSSVER_SUB, DSSVER_BUILD)
 #else
 #define VERSTRING(M, m, s)		FB(M)"."FB(m)"."FB(s)
@@ -40,8 +40,8 @@ constexpr long DSSBETAEXPIREMONTH = 6L;
 #define DSSVER_FILEVERSION		VERFILESTRING(DSSVER_MAJOR, DSSVER_MINOR, DSSVER_SUB, DSSVER_BUILD)
 #define DSSVER_PRODUCTVERSION	VERFILESTRING(DSSVER_MAJOR, DSSVER_MINOR, DSSVER_SUB, DSSVER_BUILD)
 
-#define DSSVER_COPYRIGHT "Copyright © 2006-2019 Luc Coiffier;\n\
-	Copyright © 2018-2020 David C. Partridge, Tony Cook, Mat Draper, Simon C. Smith, Vitali Pelenjow, Tomas Tatara";
+#define DSSVER_COPYRIGHT "Copyright ï¿½ 2006-2019 Luc Coiffier;\n\
+	Copyright ï¿½ 2018-2020 David C. Partridge, Tony Cook, Mat Draper, Simon C. Smith, Vitali Pelenjow, Tomas Tatara";
 #define DSSVER_PRODUCTNAME		"DeepSkyStacker"
 
 #define DSSLIVEVER_PRODUCTNAME		"DeepSkyStacker Live"
