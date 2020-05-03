@@ -15,4 +15,4 @@ endif()
 
 find_package(Qt5 COMPONENTS Widgets LinguistTools REQUIRED)
 
-add_subdirectory(qt)
+add_subdirectory(DeepSkyStacker_Qt)
