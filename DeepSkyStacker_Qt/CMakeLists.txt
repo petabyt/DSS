@@ -53,7 +53,7 @@ set(UI_FILES
 )
 
 set(CORE_FILES
-    main.cpp
+    DeepSkyStacker.cpp
 )
 
 # Update translation files and compile translations to binary form
