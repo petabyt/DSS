@@ -1,6 +1,8 @@
 #include "DeepStackerDlg.h"
 #include "ui/ui_DeepStackerDlg.h"
 #include "DSSVersion.h"
+#include <QDebug>
+#include <QPalette>
 
 DeepStackerDlg::DeepStackerDlg(QWidget *parent) :
     QMainWindow(parent),

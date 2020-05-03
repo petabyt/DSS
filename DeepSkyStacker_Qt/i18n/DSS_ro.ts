@@ -24,19 +24,19 @@
         <translation>Verifica la pornire daca este disponibila o versiune mai noua</translation>
     </message>
     <message>
-        <location filename="../About.cpp" line="14"/>
+        <location filename="../About.cpp" line="23"/>
         <source>DeepSkyStacker version %1</source>
         <translation>DeepSkyStacker version %1</translation>
     </message>
     <message>
-        <location filename="../About.cpp" line="23"/>
+        <location filename="../About.cpp" line="31"/>
         <source>RAW file decoding by LibRaw (version %1)
 Copyright © 1997-2019 LibRaw LLC</source>
         <translation>Decodare fisire RAW de LibRaw (versiune %1)
 Copyright © 1997-2019 LibRaw LLC</translation>
     </message>
     <message>
-        <location filename="../About.cpp" line="30"/>
+        <location filename="../About.cpp" line="38"/>
         <source>TIFF file encoding/decoding by LibTIFF (version %1)
 Copyright © 1988-1996 Sam Leffler
 Copyright © 1991-1996 Silicon Graphics, Inc.</source>
@@ -44,14 +44,14 @@ Copyright © 1991-1996 Silicon Graphics, Inc.</source>
 Copyright © 1988-1996 Sam Leffler\nCopyright © 1991-1996 Silicon Graphics, Inc.</translation>
     </message>
     <message>
-        <location filename="../About.cpp" line="37"/>
+        <location filename="../About.cpp" line="45"/>
         <source>FITS decoding by CFitsIO (version %1)
 Copyright NASA</source>
         <translation>Decodare FITS de CFitsIO (versiune %1)
 Copyright NASA</translation>
     </message>
     <message>
-        <location filename="../About.cpp" line="45"/>
+        <location filename="../About.cpp" line="53"/>
         <source>Default</source>
         <translation>Implicit</translation>
     </message>
@@ -74,22 +74,22 @@ Copyright NASA</translation>
         <translation>Automata</translation>
     </message>
     <message>
-        <location filename="../ui/AlignmentParameters.ui" line="44"/>
+        <location filename="../ui/AlignmentParameters.ui" line="57"/>
         <source>Bilinear</source>
         <translation>Biliniara</translation>
     </message>
     <message>
-        <location filename="../ui/AlignmentParameters.ui" line="51"/>
+        <location filename="../ui/AlignmentParameters.ui" line="77"/>
         <source>Bisquared</source>
         <translation>Bipatrata</translation>
     </message>
     <message>
-        <location filename="../ui/AlignmentParameters.ui" line="58"/>
+        <location filename="../ui/AlignmentParameters.ui" line="97"/>
         <source>Bicubic</source>
         <translation>Bicubica</translation>
     </message>
     <message>
-        <location filename="../ui/AlignmentParameters.ui" line="65"/>
+        <location filename="../ui/AlignmentParameters.ui" line="117"/>
         <source>No alignment</source>
         <translation>Fara aliniere</translation>
     </message>
@@ -247,9 +247,60 @@ Adaugati liste de fisiere dorite pentru stackare si apasati OK pentru a porni pr
     </message>
 </context>
 <context>
+    <name>CometStacking</name>
+    <message>
+        <location filename="../ui/CometStacking.ui" line="14"/>
+        <source>Comet</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/CometStacking.ui" line="20"/>
+        <source>Comet Stacking Parameters</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/CometStacking.ui" line="50"/>
+        <source>Standard Stacking</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/CometStacking.ui" line="60"/>
+        <source>Comet position is ignored.
+The comet will be fuzzy.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/CometStacking.ui" line="87"/>
+        <source>Comet Stacking</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/CometStacking.ui" line="97"/>
+        <source>Comet position is used.
+The comet will be sharp and the stars will have trails.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/CometStacking.ui" line="124"/>
+        <source>Stars + Comet Stacking</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/CometStacking.ui" line="134"/>
+        <source>Comet position is used.
+The comet and the stars will be sharp. This process is twice longer.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/CometStacking.ui" line="169"/>
+        <source>:/comet/normal.bmp</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>DeepStackerDlg</name>
     <message>
-        <location filename="../DeepStackerDlg.cpp" line="9"/>
+        <location filename="../DeepStackerDlg.cpp" line="12"/>
         <source>DeepSkyStacker %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -409,6 +460,16 @@ Adaugati liste de fisiere dorite pentru stackare si apasati OK pentru a porni pr
         <source>DeepSkyStacker&apos;s Help...</source>
         <translation>Ajutor DeepSkyStacker...</translation>
     </message>
+    <message>
+        <location filename="../ExplorerBar.cpp" line="61"/>
+        <source>Register Settings...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ExplorerBar.cpp" line="62"/>
+        <source>Stacking Settings...</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>FitsFilesTab</name>
@@ -494,29 +555,210 @@ Adaugati liste de fisiere dorite pentru stackare si apasati OK pentru a porni pr
     </message>
 </context>
 <context>
+    <name>IntermediateFiles</name>
+    <message>
+        <location filename="../ui/IntermediateFiles.ui" line="14"/>
+        <source>Intermediate Files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/IntermediateFiles.ui" line="20"/>
+        <source>Intermediate files creation settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/IntermediateFiles.ui" line="27"/>
+        <source>Create a calibrated file for each light frame</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/IntermediateFiles.ui" line="37"/>
+        <source>Save a debayered image when processing RAW images</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/IntermediateFiles.ui" line="60"/>
+        <source>Create a registered/calibrated file for each light frame</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/IntermediateFiles.ui" line="80"/>
+        <source>Intermediate and Final Image File Format</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/IntermediateFiles.ui" line="86"/>
+        <source>TIFF Files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/IntermediateFiles.ui" line="93"/>
+        <source>FITS Files</source>
+        <translation type="unfinished">Fisiere FITS</translation>
+    </message>
+</context>
+<context>
+    <name>OutputTab</name>
+    <message>
+        <location filename="../ui/OutputTab.ui" line="14"/>
+        <source>Output</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/OutputTab.ui" line="20"/>
+        <source>Output Files Settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/OutputTab.ui" line="29"/>
+        <source>Create Output file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/OutputTab.ui" line="36"/>
+        <source>Create HTML Description file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/OutputTab.ui" line="45"/>
+        <source>Output File Name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/OutputTab.ui" line="53"/>
+        <source>Autosave.tif/fits</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/OutputTab.ui" line="60"/>
+        <source>&lt;file list name&gt;.tif/fits</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/OutputTab.ui" line="71"/>
+        <source>Append a number to avoid file overwrite (001, 002, ...)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/OutputTab.ui" line="83"/>
+        <source>Output Location</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/OutputTab.ui" line="94"/>
+        <source>Create Output file in the folder of the reference frame</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/OutputTab.ui" line="108"/>
+        <source>Create Output file in the folder of the file list</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/OutputTab.ui" line="122"/>
+        <source>Create Output file in</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/OutputTab.ui" line="138"/>
+        <source>&lt;Output Folder&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>PostCalibration</name>
+    <message>
+        <location filename="../ui/PostCalibration.ui" line="14"/>
+        <source>Cosmetic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/PostCalibration.ui" line="20"/>
+        <source>Post Calibration Cosmetic settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/PostCalibration.ui" line="27"/>
+        <source>Detect and Clean remaining Hot Pixels</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/PostCalibration.ui" line="41"/>
+        <location filename="../ui/PostCalibration.ui" line="114"/>
+        <location filename="../ui/PostCalibration.ui" line="165"/>
+        <location filename="../ui/PostCalibration.ui" line="232"/>
+        <source>TextLabel</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/PostCalibration.ui" line="65"/>
+        <location filename="../ui/PostCalibration.ui" line="183"/>
+        <source>&lt;small&gt;Effect weak&lt;/small&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/PostCalibration.ui" line="75"/>
+        <location filename="../ui/PostCalibration.ui" line="193"/>
+        <source>&lt;small&gt;Strong&lt;/small&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/PostCalibration.ui" line="87"/>
+        <location filename="../ui/PostCalibration.ui" line="205"/>
+        <source>Filter Size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/PostCalibration.ui" line="107"/>
+        <location filename="../ui/PostCalibration.ui" line="225"/>
+        <source>Detection Threshold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/PostCalibration.ui" line="151"/>
+        <source>Detect and Clean remaining Cold Pixels</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/PostCalibration.ui" line="268"/>
+        <source>Replace pixel value with</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/PostCalibration.ui" line="275"/>
+        <source>Test on first frame...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/PostCalibration.ui" line="287"/>
+        <source>Save an image showing the cleaned pixels for each light frame</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>QPlatformTheme</name>
     <message>
-        <location filename="../main.cpp" line="13"/>
+        <location filename="../DeepSkyStacker.cpp" line="18"/>
         <source>Cancel</source>
         <translation>Intrerupe</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="14"/>
+        <location filename="../DeepSkyStacker.cpp" line="19"/>
         <source>Apply</source>
         <translation>Aplica</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="15"/>
+        <location filename="../DeepSkyStacker.cpp" line="20"/>
         <source>&amp;Yes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="16"/>
+        <location filename="../DeepSkyStacker.cpp" line="21"/>
         <source>&amp;No</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="17"/>
+        <location filename="../DeepSkyStacker.cpp" line="22"/>
         <source>OK</source>
         <translation>OK</translation>
     </message>
@@ -610,6 +852,171 @@ Adaugati liste de fisiere dorite pentru stackare si apasati OK pentru a porni pr
         <location filename="../ui/RawFilesTab.ui" line="230"/>
         <source>Set the black point to 0</source>
         <translation>Seteaza valoarea de negru la 0</translation>
+    </message>
+</context>
+<context>
+    <name>ResultParameters</name>
+    <message>
+        <location filename="../ui/ResultParameters.ui" line="14"/>
+        <source>Result</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/ResultParameters.ui" line="42"/>
+        <source>Standard Mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/ResultParameters.ui" line="62"/>
+        <source>&quot;Mosaic&quot; Mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/ResultParameters.ui" line="82"/>
+        <source>Intersection Mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/ResultParameters.ui" line="102"/>
+        <source>Custom Rectangle</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/ResultParameters.ui" line="132"/>
+        <source>Enable 2x Drizzle</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/ResultParameters.ui" line="139"/>
+        <source>Enable 3x Drizzle</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/ResultParameters.ui" line="159"/>
+        <source>Align RGB Channels in final image</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>StackSettings</name>
+    <message>
+        <location filename="../ui/StackSettings.ui" line="14"/>
+        <source>Dialog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/StackSettings.ui" line="41"/>
+        <source>Temporary files folder:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/StackSettings.ui" line="67"/>
+        <source>...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/StackSettings.ui" line="83"/>
+        <source>Reduce worker threads priority</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/StackSettings.ui" line="90"/>
+        <source>Use all available processors</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../StackSettings.cpp" line="22"/>
+        <source>Light</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../StackSettings.cpp" line="23"/>
+        <source>Dark</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../StackSettings.cpp" line="24"/>
+        <source>Flat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../StackSettings.cpp" line="25"/>
+        <source>Bias/Offset</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>StackingParameters</name>
+    <message>
+        <location filename="../ui/StackingParameters.ui" line="14"/>
+        <source>Stacking</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/StackingParameters.ui" line="26"/>
+        <source>Stacking Mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/StackingParameters.ui" line="36"/>
+        <source>Average</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/StackingParameters.ui" line="56"/>
+        <source>Median</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/StackingParameters.ui" line="63"/>
+        <source>Median Kappa-Sigma clipping</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/StackingParameters.ui" line="70"/>
+        <source>Kappa-Sigma clipping</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/StackingParameters.ui" line="77"/>
+        <source>Entropy Weighted Average
+(High Dynamic Range)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/StackingParameters.ui" line="98"/>
+        <source>Maximum</source>
+        <translation type="unfinished">Maxim</translation>
+    </message>
+    <message>
+        <location filename="../ui/StackingParameters.ui" line="113"/>
+        <source>Kappa:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/StackingParameters.ui" line="120"/>
+        <source>Number of iterations:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/StackingParameters.ui" line="213"/>
+        <source>Auto Adaptive Weighted Average</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>main</name>
+    <message>
+        <location filename="../DeepSkyStacker.cpp" line="58"/>
+        <source>Exception caught:
+
+%1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../DeepSkyStacker.cpp" line="62"/>
+        <source>Unknown exception caught</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

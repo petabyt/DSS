@@ -6,13 +6,27 @@
 #include "About.h"
 #include "RawDDPSettings.h"
 #include "StackSettings.h"
-#include <iostream>
+
+static void makeLink(QLabel *label, QString color, QString text)
+{
+    label->setText(QString("<a href='.' style='text-decoration: none; color: %1'>%2</a>").arg(color, text));
+}
+
+static void makeLink(QLabel *label, QString color)
+{
+    makeLink(label, color, label->text());
+}
 
 ExplorerBar::ExplorerBar(QWidget *parent) :
     QWidget(parent),
     ui(new Ui::ExplorerBar)
 {
+    QString defColor;
     ui->setupUi(this);
+    defColor = palette().color(QPalette::ColorRole::WindowText).name();
+    makeLink(ui->labelSettings, defColor);
+    makeLink(ui->labelRawSettings, defColor);
+    makeLink(ui->labelAbout, defColor);
 }
 
 ExplorerBar::~ExplorerBar()
@@ -22,7 +36,6 @@ ExplorerBar::~ExplorerBar()
 
 void ExplorerBar::linkActivated()
 {
-    std::cout << "linkActivated: " << std::endl;
 }
 
 void ExplorerBar::onAbout()
@@ -48,7 +61,7 @@ void ExplorerBar::onOptionsSettings()
     aRegisterSettings = menu.addAction(tr("Register Settings..."));
     aStackingSettings = menu.addAction(tr("Stacking Settings..."));
 
-    QAction *a = menu.exec(ui->label_13->mapToGlobal(QPoint(0,2 + ui->label_13->height())));
+    QAction *a = menu.exec(ui->labelSettings->mapToGlobal(QPoint(0,2 + ui->labelSettings->height())));
     if (a == aRegisterSettings)
     {
         printf("Register settings\n");

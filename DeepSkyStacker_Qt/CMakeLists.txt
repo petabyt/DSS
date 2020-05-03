@@ -18,38 +18,44 @@ configure_file(i18n/translations.qrc translations.qrc COPYONLY)
 # UI Files are the only ones which will be passed to the Qt Linguist tools
 set(UI_FILES
     ui/About.ui
-    About.cpp
     ui/AskRegistering.ui
-    AskRegistering.cpp
     ui/AlignmentParameters.ui
-    AlignmentParameters.cpp
     ui/BackgroundOptions.ui
-    BackgroundOptions.cpp
     ui/BatchStacking.ui
-    BatchStacking.cpp
     ui/CheckAbove.ui
-    CheckAbove.cpp
     ui/DeepStackerDlg.ui
-    DeepStackerDlg.cpp
     ui/ExplorerBar.ui
-    ExplorerBar.cpp
     ui/DropFilesDlg.ui
-    DropFilesDlg.cpp
     ui/FitsFilesTab.ui
-    FitsFilesTab.cpp
     ui/RawFilesTab.ui
-    RawFilesTab.cpp
     ui/RawDDPSettings.ui
-    RawDDPSettings.cpp
     ui/ResultParameters.ui
-    ResultParameters.cpp
     ui/StackSettings.ui
-    StackSettings.cpp
     ui/CometStacking.ui
-    CometStacking.cpp
     ui/PostCalibration.ui
+    ui/OutputTab.ui
+    ui/IntermediateFiles.ui
+    ui/StackingParameters.ui
+    About.cpp
+    AskRegistering.cpp
+    AlignmentParameters.cpp
+    BackgroundOptions.cpp
+    BatchStacking.cpp
+    CheckAbove.cpp
+    DeepStackerDlg.cpp
+    ExplorerBar.cpp
+    DropFilesDlg.cpp
+    FitsFilesTab.cpp
+    RawFilesTab.cpp
+    RawDDPSettings.cpp
+    ResultParameters.cpp
+    StackSettings.cpp
+    CometStacking.cpp
     PostCalibration.cpp
     ClickLabel.cpp
+    OutputTab.cpp
+    IntermediateFiles.cpp
+    StackingParameters.cpp
 )
 
 set(CORE_FILES

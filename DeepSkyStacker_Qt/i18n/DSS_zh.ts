@@ -24,31 +24,31 @@
         <translation>啟動時檢查是否有新版本</translation>
     </message>
     <message>
-        <location filename="../About.cpp" line="14"/>
+        <location filename="../About.cpp" line="23"/>
         <source>DeepSkyStacker version %1</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../About.cpp" line="23"/>
+        <location filename="../About.cpp" line="31"/>
         <source>RAW file decoding by LibRaw (version %1)
 Copyright © 1997-2019 LibRaw LLC</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../About.cpp" line="30"/>
+        <location filename="../About.cpp" line="38"/>
         <source>TIFF file encoding/decoding by LibTIFF (version %1)
 Copyright © 1988-1996 Sam Leffler
 Copyright © 1991-1996 Silicon Graphics, Inc.</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../About.cpp" line="37"/>
+        <location filename="../About.cpp" line="45"/>
         <source>FITS decoding by CFitsIO (version %1)
 Copyright NASA</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../About.cpp" line="45"/>
+        <location filename="../About.cpp" line="53"/>
         <source>Default</source>
         <translation>預設</translation>
     </message>
@@ -71,22 +71,22 @@ Copyright NASA</source>
         <translation>系統自動決定</translation>
     </message>
     <message>
-        <location filename="../ui/AlignmentParameters.ui" line="44"/>
+        <location filename="../ui/AlignmentParameters.ui" line="57"/>
         <source>Bilinear</source>
         <translation>雙線性</translation>
     </message>
     <message>
-        <location filename="../ui/AlignmentParameters.ui" line="51"/>
+        <location filename="../ui/AlignmentParameters.ui" line="77"/>
         <source>Bisquared</source>
         <translation>雙二次方</translation>
     </message>
     <message>
-        <location filename="../ui/AlignmentParameters.ui" line="58"/>
+        <location filename="../ui/AlignmentParameters.ui" line="97"/>
         <source>Bicubic</source>
         <translation>雙三次方</translation>
     </message>
     <message>
-        <location filename="../ui/AlignmentParameters.ui" line="65"/>
+        <location filename="../ui/AlignmentParameters.ui" line="117"/>
         <source>No alignment</source>
         <translation>不執行對齊各幅星點</translation>
     </message>
@@ -244,9 +244,63 @@ Add the file lists you want to stack and click OK to start the stacking processe
     </message>
 </context>
 <context>
+    <name>CometStacking</name>
+    <message>
+        <location filename="../ui/CometStacking.ui" line="14"/>
+        <source>Comet</source>
+        <translation>彗星</translation>
+    </message>
+    <message>
+        <location filename="../ui/CometStacking.ui" line="20"/>
+        <source>Comet Stacking Parameters</source>
+        <translation>彗星疊合參數</translation>
+    </message>
+    <message>
+        <location filename="../ui/CometStacking.ui" line="50"/>
+        <source>Standard Stacking</source>
+        <translation>標準疊合</translation>
+    </message>
+    <message>
+        <location filename="../ui/CometStacking.ui" line="60"/>
+        <source>Comet position is ignored.
+The comet will be fuzzy.</source>
+        <translation>不考慮彗星位置。
+疊出的彗星會變模糊。</translation>
+    </message>
+    <message>
+        <location filename="../ui/CometStacking.ui" line="87"/>
+        <source>Comet Stacking</source>
+        <translation>彗星疊合</translation>
+    </message>
+    <message>
+        <location filename="../ui/CometStacking.ui" line="97"/>
+        <source>Comet position is used.
+The comet will be sharp and the stars will have trails.</source>
+        <translation>使用彗星位置。
+疊出的彗星會是清析的，恆星則會拖線。</translation>
+    </message>
+    <message>
+        <location filename="../ui/CometStacking.ui" line="124"/>
+        <source>Stars + Comet Stacking</source>
+        <translation>恆星加彗星疊合</translation>
+    </message>
+    <message>
+        <location filename="../ui/CometStacking.ui" line="134"/>
+        <source>Comet position is used.
+The comet and the stars will be sharp. This process is twice longer.</source>
+        <translation>使用彗星的位置。
+疊出的彗星與恆星都會是清析的。處理時間會加倍。</translation>
+    </message>
+    <message>
+        <location filename="../ui/CometStacking.ui" line="169"/>
+        <source>:/comet/normal.bmp</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>DeepStackerDlg</name>
     <message>
-        <location filename="../DeepStackerDlg.cpp" line="9"/>
+        <location filename="../DeepStackerDlg.cpp" line="12"/>
         <source>DeepSkyStacker %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -406,6 +460,16 @@ Add the file lists you want to stack and click OK to start the stacking processe
         <source>DeepSkyStacker&apos;s Help...</source>
         <translation>DeepSkyStacker說明...</translation>
     </message>
+    <message>
+        <location filename="../ExplorerBar.cpp" line="61"/>
+        <source>Register Settings...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ExplorerBar.cpp" line="62"/>
+        <source>Stacking Settings...</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>FitsFilesTab</name>
@@ -495,29 +559,210 @@ Add the file lists you want to stack and click OK to start the stacking processe
     </message>
 </context>
 <context>
+    <name>IntermediateFiles</name>
+    <message>
+        <location filename="../ui/IntermediateFiles.ui" line="14"/>
+        <source>Intermediate Files</source>
+        <translation>中介檔</translation>
+    </message>
+    <message>
+        <location filename="../ui/IntermediateFiles.ui" line="20"/>
+        <source>Intermediate files creation settings</source>
+        <translation>中介檔儲存設定</translation>
+    </message>
+    <message>
+        <location filename="../ui/IntermediateFiles.ui" line="27"/>
+        <source>Create a calibrated file for each light frame</source>
+        <translation>每幅天體影像校正後都儲存校正結果</translation>
+    </message>
+    <message>
+        <location filename="../ui/IntermediateFiles.ui" line="37"/>
+        <source>Save a debayered image when processing RAW images</source>
+        <translation>若為RAW檔則儲存解譯Bayer矩陣後的結果</translation>
+    </message>
+    <message>
+        <location filename="../ui/IntermediateFiles.ui" line="60"/>
+        <source>Create a registered/calibrated file for each light frame</source>
+        <translation>儲存每幅天體影像校正/星點對齊後的結果</translation>
+    </message>
+    <message>
+        <location filename="../ui/IntermediateFiles.ui" line="80"/>
+        <source>Intermediate and Final Image File Format</source>
+        <translation>中介檔格式</translation>
+    </message>
+    <message>
+        <location filename="../ui/IntermediateFiles.ui" line="86"/>
+        <source>TIFF Files</source>
+        <translation>將中介檔存為TIFF格式</translation>
+    </message>
+    <message>
+        <location filename="../ui/IntermediateFiles.ui" line="93"/>
+        <source>FITS Files</source>
+        <translation>將中介檔存為FITS格式FITS檔</translation>
+    </message>
+</context>
+<context>
+    <name>OutputTab</name>
+    <message>
+        <location filename="../ui/OutputTab.ui" line="14"/>
+        <source>Output</source>
+        <translation>輸出</translation>
+    </message>
+    <message>
+        <location filename="../ui/OutputTab.ui" line="20"/>
+        <source>Output Files Settings</source>
+        <translation>輸出影像設定</translation>
+    </message>
+    <message>
+        <location filename="../ui/OutputTab.ui" line="29"/>
+        <source>Create Output file</source>
+        <translation>產生輸出檔</translation>
+    </message>
+    <message>
+        <location filename="../ui/OutputTab.ui" line="36"/>
+        <source>Create HTML Description file</source>
+        <translation>產生HTML敘述檔</translation>
+    </message>
+    <message>
+        <location filename="../ui/OutputTab.ui" line="45"/>
+        <source>Output File Name</source>
+        <translation>輸出檔名</translation>
+    </message>
+    <message>
+        <location filename="../ui/OutputTab.ui" line="53"/>
+        <source>Autosave.tif/fits</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../ui/OutputTab.ui" line="60"/>
+        <source>&lt;file list name&gt;.tif/fits</source>
+        <translation>&lt;檔案清單名稱&gt;.tif</translation>
+    </message>
+    <message>
+        <location filename="../ui/OutputTab.ui" line="71"/>
+        <source>Append a number to avoid file overwrite (001, 002, ...)</source>
+        <translation>添附數字以避免檔案蓋寫 (001, 002, ...)</translation>
+    </message>
+    <message>
+        <location filename="../ui/OutputTab.ui" line="83"/>
+        <source>Output Location</source>
+        <translation>輸出位置</translation>
+    </message>
+    <message>
+        <location filename="../ui/OutputTab.ui" line="94"/>
+        <source>Create Output file in the folder of the reference frame</source>
+        <translation>於參考影像所在的檔案夾產生輸出檔</translation>
+    </message>
+    <message>
+        <location filename="../ui/OutputTab.ui" line="108"/>
+        <source>Create Output file in the folder of the file list</source>
+        <translation>於檔案清單所在的檔案夾產生輸出檔</translation>
+    </message>
+    <message>
+        <location filename="../ui/OutputTab.ui" line="122"/>
+        <source>Create Output file in</source>
+        <translation>產生輸出檔於</translation>
+    </message>
+    <message>
+        <location filename="../ui/OutputTab.ui" line="138"/>
+        <source>&lt;Output Folder&gt;</source>
+        <translation>&lt;輸出檔案夾&gt;</translation>
+    </message>
+</context>
+<context>
+    <name>PostCalibration</name>
+    <message>
+        <location filename="../ui/PostCalibration.ui" line="14"/>
+        <source>Cosmetic</source>
+        <translation>外觀修飾</translation>
+    </message>
+    <message>
+        <location filename="../ui/PostCalibration.ui" line="20"/>
+        <source>Post Calibration Cosmetic settings</source>
+        <translation>影像校正後的外觀修飾設定</translation>
+    </message>
+    <message>
+        <location filename="../ui/PostCalibration.ui" line="27"/>
+        <source>Detect and Clean remaining Hot Pixels</source>
+        <translation>偵測並移除殘餘的熱像元</translation>
+    </message>
+    <message>
+        <location filename="../ui/PostCalibration.ui" line="41"/>
+        <location filename="../ui/PostCalibration.ui" line="114"/>
+        <location filename="../ui/PostCalibration.ui" line="165"/>
+        <location filename="../ui/PostCalibration.ui" line="232"/>
+        <source>TextLabel</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../ui/PostCalibration.ui" line="65"/>
+        <location filename="../ui/PostCalibration.ui" line="183"/>
+        <source>&lt;small&gt;Effect weak&lt;/small&gt;</source>
+        <translation>&lt;small&gt;效果較弱&lt;/small&gt;</translation>
+    </message>
+    <message>
+        <location filename="../ui/PostCalibration.ui" line="75"/>
+        <location filename="../ui/PostCalibration.ui" line="193"/>
+        <source>&lt;small&gt;Strong&lt;/small&gt;</source>
+        <translation>&lt;small&gt;較強&lt;/small&gt;</translation>
+    </message>
+    <message>
+        <location filename="../ui/PostCalibration.ui" line="87"/>
+        <location filename="../ui/PostCalibration.ui" line="205"/>
+        <source>Filter Size</source>
+        <translation>濾波器大小</translation>
+    </message>
+    <message>
+        <location filename="../ui/PostCalibration.ui" line="107"/>
+        <location filename="../ui/PostCalibration.ui" line="225"/>
+        <source>Detection Threshold</source>
+        <translation>偵測臨界值</translation>
+    </message>
+    <message>
+        <location filename="../ui/PostCalibration.ui" line="151"/>
+        <source>Detect and Clean remaining Cold Pixels</source>
+        <translation>偵測並移除殘餘的冷像元</translation>
+    </message>
+    <message>
+        <location filename="../ui/PostCalibration.ui" line="268"/>
+        <source>Replace pixel value with</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/PostCalibration.ui" line="275"/>
+        <source>Test on first frame...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ui/PostCalibration.ui" line="287"/>
+        <source>Save an image showing the cleaned pixels for each light frame</source>
+        <translation type="unfinished">每幅天體影像都儲存一幅顯示哪些像元被移除的影像</translation>
+    </message>
+</context>
+<context>
     <name>QPlatformTheme</name>
     <message>
-        <location filename="../main.cpp" line="14"/>
+        <location filename="../DeepSkyStacker.cpp" line="19"/>
         <source>Apply</source>
         <translation>套用</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="15"/>
+        <location filename="../DeepSkyStacker.cpp" line="20"/>
         <source>&amp;Yes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="16"/>
+        <location filename="../DeepSkyStacker.cpp" line="21"/>
         <source>&amp;No</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="17"/>
+        <location filename="../DeepSkyStacker.cpp" line="22"/>
         <source>OK</source>
         <translation>OK</translation>
     </message>
     <message>
-        <location filename="../main.cpp" line="13"/>
+        <location filename="../DeepSkyStacker.cpp" line="18"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
@@ -611,6 +856,171 @@ Add the file lists you want to stack and click OK to start the stacking processe
         <location filename="../ui/RawFilesTab.ui" line="230"/>
         <source>Set the black point to 0</source>
         <translation>設定黑色值為0</translation>
+    </message>
+</context>
+<context>
+    <name>ResultParameters</name>
+    <message>
+        <location filename="../ui/ResultParameters.ui" line="14"/>
+        <source>Result</source>
+        <translation>結果</translation>
+    </message>
+    <message>
+        <location filename="../ui/ResultParameters.ui" line="42"/>
+        <source>Standard Mode</source>
+        <translation>標準模式</translation>
+    </message>
+    <message>
+        <location filename="../ui/ResultParameters.ui" line="62"/>
+        <source>&quot;Mosaic&quot; Mode</source>
+        <translation>馬賽克模式</translation>
+    </message>
+    <message>
+        <location filename="../ui/ResultParameters.ui" line="82"/>
+        <source>Intersection Mode</source>
+        <translation>交疊模式</translation>
+    </message>
+    <message>
+        <location filename="../ui/ResultParameters.ui" line="102"/>
+        <source>Custom Rectangle</source>
+        <translation>自訂方型區域</translation>
+    </message>
+    <message>
+        <location filename="../ui/ResultParameters.ui" line="132"/>
+        <source>Enable 2x Drizzle</source>
+        <translation>使用二倍Drizzle</translation>
+    </message>
+    <message>
+        <location filename="../ui/ResultParameters.ui" line="139"/>
+        <source>Enable 3x Drizzle</source>
+        <translation>使用三倍Drizzle</translation>
+    </message>
+    <message>
+        <location filename="../ui/ResultParameters.ui" line="159"/>
+        <source>Align RGB Channels in final image</source>
+        <translation>在最終影像中對齊RGB三色</translation>
+    </message>
+</context>
+<context>
+    <name>StackSettings</name>
+    <message>
+        <location filename="../ui/StackSettings.ui" line="14"/>
+        <source>Dialog</source>
+        <translation>疊合參數</translation>
+    </message>
+    <message>
+        <location filename="../ui/StackSettings.ui" line="41"/>
+        <source>Temporary files folder:</source>
+        <translation>暫存檔檔案夾:</translation>
+    </message>
+    <message>
+        <location filename="../ui/StackSettings.ui" line="67"/>
+        <source>...</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="../ui/StackSettings.ui" line="83"/>
+        <source>Reduce worker threads priority</source>
+        <translation>降低執行緒的優先性</translation>
+    </message>
+    <message>
+        <location filename="../ui/StackSettings.ui" line="90"/>
+        <source>Use all available processors</source>
+        <translation>使用所有可用的處理器</translation>
+    </message>
+    <message>
+        <location filename="../StackSettings.cpp" line="22"/>
+        <source>Light</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../StackSettings.cpp" line="23"/>
+        <source>Dark</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../StackSettings.cpp" line="24"/>
+        <source>Flat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../StackSettings.cpp" line="25"/>
+        <source>Bias/Offset</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>StackingParameters</name>
+    <message>
+        <location filename="../ui/StackingParameters.ui" line="14"/>
+        <source>Stacking</source>
+        <translation>疊合中</translation>
+    </message>
+    <message>
+        <location filename="../ui/StackingParameters.ui" line="26"/>
+        <source>Stacking Mode</source>
+        <translation>疊合方式</translation>
+    </message>
+    <message>
+        <location filename="../ui/StackingParameters.ui" line="36"/>
+        <source>Average</source>
+        <translation>平均</translation>
+    </message>
+    <message>
+        <location filename="../ui/StackingParameters.ui" line="56"/>
+        <source>Median</source>
+        <translation>中位數</translation>
+    </message>
+    <message>
+        <location filename="../ui/StackingParameters.ui" line="63"/>
+        <source>Median Kappa-Sigma clipping</source>
+        <translation>中位數Kappa-Sigma剪去法</translation>
+    </message>
+    <message>
+        <location filename="../ui/StackingParameters.ui" line="70"/>
+        <source>Kappa-Sigma clipping</source>
+        <translation>Kappa-Sigma剪去法</translation>
+    </message>
+    <message>
+        <location filename="../ui/StackingParameters.ui" line="77"/>
+        <source>Entropy Weighted Average
+(High Dynamic Range)</source>
+        <translation>熵加權平均 (高動態範圍)</translation>
+    </message>
+    <message>
+        <location filename="../ui/StackingParameters.ui" line="98"/>
+        <source>Maximum</source>
+        <translation>最大值</translation>
+    </message>
+    <message>
+        <location filename="../ui/StackingParameters.ui" line="113"/>
+        <source>Kappa:</source>
+        <translation>Kappa值:</translation>
+    </message>
+    <message>
+        <location filename="../ui/StackingParameters.ui" line="120"/>
+        <source>Number of iterations:</source>
+        <translation>重覆次數:</translation>
+    </message>
+    <message>
+        <location filename="../ui/StackingParameters.ui" line="213"/>
+        <source>Auto Adaptive Weighted Average</source>
+        <translation>自動可調適式加權平均</translation>
+    </message>
+</context>
+<context>
+    <name>main</name>
+    <message>
+        <location filename="../DeepSkyStacker.cpp" line="58"/>
+        <source>Exception caught:
+
+%1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../DeepSkyStacker.cpp" line="62"/>
+        <source>Unknown exception caught</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

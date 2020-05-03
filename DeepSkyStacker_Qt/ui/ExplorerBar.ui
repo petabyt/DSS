@@ -72,11 +72,11 @@
           <number>5</number>
          </property>
          <item>
-          <widget class="ClickLabel" name="label" native="true">
+          <widget class="QLabel" name="label">
            <property name="styleSheet">
             <string notr="true"/>
            </property>
-           <property name="text" stdset="0">
+           <property name="text">
             <string>Open picture files...</string>
            </property>
           </widget>
@@ -354,18 +354,18 @@
        <number>6</number>
       </property>
       <item>
-       <widget class="ClickLabel" name="label_13">
+       <widget class="QLabel" name="labelSettings">
         <property name="text">
          <string>Settings...</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="ClickLabel" name="label_14" native="true">
+       <widget class="QLabel" name="labelRawSettings">
         <property name="styleSheet">
          <string notr="true">margin-left: 30</string>
         </property>
-        <property name="text" stdset="0">
+        <property name="text">
          <string>Raw/FITS DDP Settings...</string>
         </property>
        </widget>
@@ -401,8 +401,8 @@
        </widget>
       </item>
       <item>
-       <widget class="ClickLabel" name="label_18" native="true">
-        <property name="text" stdset="0">
+       <widget class="QLabel" name="labelAbout">
+        <property name="text">
          <string>About DeepSkyStacker...</string>
         </property>
        </widget>
@@ -419,20 +419,11 @@
    </item>
   </layout>
  </widget>
- <customwidgets>
-  <customwidget>
-   <class>ClickLabel</class>
-   <extends>QLabel</extends>
-   <slots>
-    <signal>clicked()</signal>
-   </slots>
-  </customwidget>
- </customwidgets>
  <resources/>
  <connections>
   <connection>
-   <sender>label_18</sender>
-   <signal>clicked()</signal>
+   <sender>labelAbout</sender>
+   <signal>linkActivated(QString)</signal>
    <receiver>ExplorerBar</receiver>
    <slot>onAbout()</slot>
    <hints>
@@ -447,14 +438,24 @@
    </hints>
   </connection>
   <connection>
-   <sender>label_13</sender>
-   <signal>clicked()</signal>
+   <sender>labelSettings</sender>
+   <signal>linkActivated(QString)</signal>
    <receiver>ExplorerBar</receiver>
    <slot>onOptionsSettings()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>39</x>
+     <y>563</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
   </connection>
   <connection>
-   <sender>label_14</sender>
-   <signal>clicked()</signal>
+   <sender>labelRawSettings</sender>
+   <signal>linkActivated(QString)</signal>
    <receiver>ExplorerBar</receiver>
    <slot>onOptionsRawDDPSettings()</slot>
    <hints>
