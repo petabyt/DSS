@@ -15,4 +15,6 @@ endif()
 
 find_package(Qt5 COMPONENTS Widgets LinguistTools REQUIRED)
 
+add_subdirectory(LibRaw)
+#add_subdirectory(LibTiff)
 add_subdirectory(DeepSkyStacker_Qt)
