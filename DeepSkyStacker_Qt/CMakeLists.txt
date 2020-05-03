@@ -1,6 +1,9 @@
 if (${CMAKE_SYSTEM_NAME} MATCHES "Darwin")
     set(CMAKE_MACOSX_BUNDLE TRUE)
     set(MACOSX_BUNDLE_ICON_FILE DeepSkyStacker.icns)
+    set(MACOSX_BUNDLE_SHORT_VERSION_STRING "5.1.0")
+    set(MACOSX_BUNDLE_COPYRIGHT "Copyright © 2006-2019 Luc Coiffier
+Copyright © 2018-2020 David C. Partridge, Tony Cook, Mat Draper, Simon C. Smith, Vitali Pelenjow, Tomas Tatara, Michal Schulz")
     set(ICON ${CMAKE_CURRENT_SOURCE_DIR}/icon/DeepSkyStacker.icns)
     set_source_files_properties(${ICON} PROPERTIES MACOSX_PACKAGE_LOCATION "Resources")
 endif()
