@@ -2,7 +2,7 @@
 #include <QAction>
 #include "ClickLabel.h"
 #include "ExplorerBar.h"
-#include "ui_ExplorerBar.h"
+#include "ui/ui_ExplorerBar.h"
 #include "About.h"
 #include "RawDDPSettings.h"
 #include "StackSettings.h"

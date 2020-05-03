@@ -1,5 +1,5 @@
 #include "BackgroundOptions.h"
-#include "ui_BackgroundOptions.h"
+#include "ui/ui_BackgroundOptions.h"
 
 BackgroundOptions::BackgroundOptions(QWidget *parent) :
     QDialog(parent),

@@ -1,5 +1,5 @@
 #include "DropFilesDlg.h"
-#include "ui_DropFilesDlg.h"
+#include "ui/ui_DropFilesDlg.h"
 
 DropFilesDlg::DropFilesDlg(QWidget *parent) :
     QDialog(parent),

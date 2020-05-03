@@ -1,5 +1,5 @@
 #include "AlignmentParameters.h"
-#include "ui_AlignmentParameters.h"
+#include "ui/ui_AlignmentParameters.h"
 
 AlignmentParameters::AlignmentParameters(QWidget *parent) :
     QWidget(parent),

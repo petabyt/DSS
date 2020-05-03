@@ -1,5 +1,5 @@
 #include "StackSettings.h"
-#include "ui_StackSettings.h"
+#include "ui/ui_StackSettings.h"
 
 StackSettings::StackSettings(QWidget *parent) :
     QDialog(parent),

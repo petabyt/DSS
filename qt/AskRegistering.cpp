@@ -1,5 +1,5 @@
 #include "AskRegistering.h"
-#include "ui_AskRegistering.h"
+#include "ui/ui_AskRegistering.h"
 
 AskRegistering::AskRegistering(QWidget *parent) :
     QDialog(parent),

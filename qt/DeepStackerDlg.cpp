@@ -1,5 +1,5 @@
 #include "DeepStackerDlg.h"
-#include "ui_DeepStackerDlg.h"
+#include "ui/ui_DeepStackerDlg.h"
 #include "DSSVersion.h"
 
 DeepStackerDlg::DeepStackerDlg(QWidget *parent) :

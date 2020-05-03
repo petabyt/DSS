@@ -1,5 +1,5 @@
 #include "ResultParameters.h"
-#include "ui_ResultParameters.h"
+#include "ui/ui_ResultParameters.h"
 
 ResultParameters::ResultParameters(QWidget *parent) :
     QWidget(parent),

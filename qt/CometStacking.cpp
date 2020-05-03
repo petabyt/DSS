@@ -1,5 +1,5 @@
 #include "CometStacking.h"
-#include "ui_CometStacking.h"
+#include "ui/ui_CometStacking.h"
 
 CometStacking::CometStacking(QWidget *parent) :
     QWidget(parent),

@@ -1,5 +1,5 @@
 #include "FitsFilesTab.h"
-#include "ui_FitsFilesTab.h"
+#include "ui/ui_FitsFilesTab.h"
 
 FitsFilesTab::FitsFilesTab(QWidget *parent) :
     QWidget(parent),

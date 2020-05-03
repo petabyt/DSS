@@ -1,5 +1,5 @@
 #include "PostCalibration.h"
-#include "ui_PostCalibration.h"
+#include "ui/ui_PostCalibration.h"
 
 PostCalibration::PostCalibration(QWidget *parent) :
     QWidget(parent),

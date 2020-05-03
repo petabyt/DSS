@@ -1,5 +1,5 @@
 #include "RawDDPSettings.h"
-#include "ui_RawDDPSettings.h"
+#include "ui/ui_RawDDPSettings.h"
 
 RawDDPSettings::RawDDPSettings(QWidget *parent) :
     QDialog(parent),

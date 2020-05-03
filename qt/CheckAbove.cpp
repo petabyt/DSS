@@ -1,5 +1,5 @@
 #include "CheckAbove.h"
-#include "ui_CheckAbove.h"
+#include "ui/ui_CheckAbove.h"
 
 CheckAbove::CheckAbove(QWidget *parent) :
     QDialog(parent),

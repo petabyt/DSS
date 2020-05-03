@@ -1,5 +1,5 @@
 #include "RawFilesTab.h"
-#include "ui_RawFilesTab.h"
+#include "ui/ui_RawFilesTab.h"
 
 RawFilesTab::RawFilesTab(QWidget *parent) :
     QWidget(parent),
