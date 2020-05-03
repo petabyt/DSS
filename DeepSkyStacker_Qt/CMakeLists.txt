@@ -1,3 +1,10 @@
+if (${CMAKE_SYSTEM_NAME} MATCHES "Darwin")
+    set(CMAKE_MACOSX_BUNDLE TRUE)
+    set(MACOSX_BUNDLE_ICON_FILE DeepSkyStacker.icns)
+    set(ICON ${CMAKE_CURRENT_SOURCE_DIR}/icon/DeepSkyStacker.icns)
+    set_source_files_properties(${ICON} PROPERTIES MACOSX_PACKAGE_LOCATION "Resources")
+endif()
+
 # Set all languages we want to make translations for
 # The list will automatically create necessary resource to include the
 # translations into final binary
@@ -72,7 +79,30 @@ add_executable(DeepSkyStacker
     resources.qrc
     ${CMAKE_CURRENT_BINARY_DIR}/translations.qrc
     ${QM_FILES}
+    ${ICON}
 )
 
 target_include_directories(DeepSkyStacker PRIVATE ../DeepSkyStacker/)
 target_link_libraries(DeepSkyStacker Qt5::Widgets)
+target_link_libraries(DeepSkyStacker raw)
+
+# Retrieve the absolute path to qmake and then use that path to find
+# the binaries
+get_target_property(_qmake_executable Qt5::qmake IMPORTED_LOCATION)
+get_filename_component(_qt_bin_dir "${_qmake_executable}" DIRECTORY)
+find_program(WINDEPLOYQT_EXECUTABLE windeployqt HINTS "${_qt_bin_dir}")
+
+if (${CMAKE_SYSTEM_NAME} MATCHES "Darwin")
+    find_program(MACDEPLOYQT_EXECUTABLE macdeployqt HINTS "${_qt_bin_dir}")
+    install(CODE "
+        execute_process(COMMAND \"${MACDEPLOYQT_EXECUTABLE}\"
+            \"${CMAKE_CURRENT_BINARY_DIR}/DeepSkyStacker.app\"
+            -always-overwrite)
+        execute_process(COMMAND rm -rf \"${CMAKE_CURRENT_BINARY_DIR}/DeepSkyStacker.app/Contents/Frameworks/QtVirtualKeyboard.framework\")
+        execute_process(COMMAND rm -rf \"${CMAKE_CURRENT_BINARY_DIR}/DeepSkyStacker.app/Contents/Frameworks/QtQml.framework\")
+        execute_process(COMMAND rm -rf \"${CMAKE_CURRENT_BINARY_DIR}/DeepSkyStacker.app/Contents/Frameworks/QtQmlModels.framework\")
+        execute_process(COMMAND rm -rf \"${CMAKE_CURRENT_BINARY_DIR}/DeepSkyStacker.app/Contents/Frameworks/QtQuick.framework\")
+        execute_process(COMMAND rm -rf \"${CMAKE_CURRENT_BINARY_DIR}/DeepSkyStacker.app/Contents/PlugIns/virtualkeyboard\")
+        execute_process(COMMAND rm -rf \"${CMAKE_CURRENT_BINARY_DIR}/DeepSkyStacker.app/Contents/PlugIns/platforminputcontexts/libqtvirtualkeyboardplugin.dylib\")
+    " COMPONENT Runtime)
+endif()
