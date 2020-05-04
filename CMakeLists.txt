@@ -13,8 +13,11 @@ if(CMAKE_VERSION VERSION_LESS "3.7.0")
     set(CMAKE_INCLUDE_CURRENT_DIR ON)
 endif()
 
+list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/CMakeModules")
+
+find_package(TIFF 4.1.0 EXACT REQUIRED)
+find_package(CFITSIO 3.47 EXACT REQUIRED)
 find_package(Qt5 COMPONENTS Widgets LinguistTools REQUIRED)
 
 add_subdirectory(LibRaw)
-#add_subdirectory(LibTiff)
 add_subdirectory(DeepSkyStacker_Qt)
