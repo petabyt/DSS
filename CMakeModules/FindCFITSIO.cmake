@@ -8,10 +8,10 @@ if(NOT CFITSIO_FOUND)
 
     find_path(CFITSIO_INCLUDE_DIR fitsio.h
         HINTS ${CFITSIO_ROOT_DIR} ${CMAKE_INSTALL_PREFIX}
-        PATH_SUFFIXES libcfitsio3 libcfitsio0 cfitsio
+        PATH_SUFFIXES include cfitsio include/cfitsio
     )
 
-    find_library(CFITSIO_LIBRARIES NAMES cfitsio.
+    find_library(CFITSIO_LIBRARIES NAMES cfitsio
         HINTS ${CFITSIO_ROOT_DIR} ${CMAKE_INSTALL_PREFIX}
         PATH_SUFFIXES lib
     )
