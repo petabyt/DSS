@@ -5,6 +5,12 @@
 #include "About.h"
 #include "ui/ui_About.h"
 #include "DSSVersion.h"
+#include <fitsio.h>
+#include <tiffio.h>
+#include <libraw/libraw_version.h>
+
+#define xstr(s) str(s)
+#define str(s) #s
 
 About::About(QWidget *parent) :
     QDialog(parent),
@@ -29,21 +35,24 @@ About::About(QWidget *parent) :
     strHTML += strText;
 
     strText = QString(QCoreApplication::translate("About", 
-                "RAW file decoding by LibRaw (version %1)\nCopyright © 1997-2019 LibRaw LLC")).arg("0.19.3" /* VERSION_DCRAW */);
+                "RAW file decoding by LibRaw (version %1)\nCopyright © 1997-2019 LibRaw LLC")).arg(LIBRAW_VERSION_STR);
     strText = strText.replace("\n", "<br>");
     strHTML += strText + "<br>";
     strText = QString("<a href=\"%1\">%1</a><br><br>").arg("http://libraw.org/");
     strHTML += strText;
 
+    copyright = TIFFGetVersion();
+    copyright = copyright.remove(0, copyright.indexOf("Version ") + 8);
+    copyright = copyright.left(copyright.indexOf("Copyright")-1);
     strText = QString(QCoreApplication::translate("About", 
-                "TIFF file encoding/decoding by LibTIFF (version %1)\nCopyright © 1988-1996 Sam Leffler\nCopyright © 1991-1996 Silicon Graphics, Inc.")).arg("4.0.9" /* VERSION_TIFF */);
+                "TIFF file encoding/decoding by LibTIFF (version %1)\nCopyright © 1988-1996 Sam Leffler\nCopyright © 1991-1996 Silicon Graphics, Inc.")).arg(copyright);
     strText = strText.replace("\n", "<br>");
     strHTML += strText + "<br>";
     strText = QString("<a href=\"%1\">%1</a><br><br>").arg("http://www.remotesensing.org/libtiff/");
     strHTML += strText;
 
     strText = QString(QCoreApplication::translate("About", 
-                "FITS decoding by CFitsIO (version %1)\nCopyright NASA")).arg("3.43" /* VERSION_CFITSIO */);
+                "FITS decoding by CFitsIO (version %1)\nCopyright NASA")).arg(xstr(CFITSIO_VERSION));
     strText = strText.replace("\n", "<br>");
     strHTML += strText + "<br>";
     strText = QString("<a href=\"%1\">%1</a><br>").arg("http://heasarc.gsfc.nasa.gov/docs/software/fitsio/fitsio.html");
