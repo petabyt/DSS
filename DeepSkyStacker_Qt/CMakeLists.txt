@@ -86,9 +86,13 @@ add_executable(DeepSkyStacker
     ${ICON}
 )
 
-target_include_directories(DeepSkyStacker PRIVATE ../DeepSkyStacker/)
+target_include_directories(DeepSkyStacker PRIVATE 
+    ../DeepSkyStacker/
+    ${TIFF_INCLUDE_DIR}
+    ${CFITSIO_INCLUDE_DIR}
+)
 target_link_libraries(DeepSkyStacker Qt5::Widgets)
-target_link_libraries(DeepSkyStacker raw)
+target_link_libraries(DeepSkyStacker raw ${TIFF_LIBRARIES} ${CFITSIO_LIBRARIES})
 
 # Retrieve the absolute path to qmake and then use that path to find
 # the binaries
