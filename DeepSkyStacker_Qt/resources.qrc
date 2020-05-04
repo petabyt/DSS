@@ -17,4 +17,18 @@
     <file alias="freeze.bmp">../DeepSkyStacker/res/Comet_Freeze.bmp</file>
     <file alias="trails.bmp">../DeepSkyStacker/res/Comet_Trails.bmp</file>
 </qresource>
+<qresource prefix="flags">
+    <file alias="brazil.png">../DeepSkyStacker/res/Brazil.png</file>
+    <file alias="catalan.png">../DeepSkyStacker/res/Catalan.png</file>
+    <file alias="czech.png">../DeepSkyStacker/res/Czech.png</file>
+    <file alias="dutch.png">../DeepSkyStacker/res/Dutch.png</file>
+    <file alias="german.png">../DeepSkyStacker/res/German.png</file>
+    <file alias="italian.png">../DeepSkyStacker/res/Italian.png</file>
+    <file alias="portugal.png">../DeepSkyStacker/res/Portugal.png</file>
+    <file alias="romanian.png">../DeepSkyStacker/res/Romanian.png</file>
+    <file alias="russian.png">../DeepSkyStacker/res/Russian.png</file>
+    <file alias="spanish.png">../DeepSkyStacker/res/Spanish.png</file>
+    <file alias="taiwan.png">../DeepSkyStacker/res/Taiwan.png</file>
+    <file alias="turkish.png">../DeepSkyStacker/res/Turkish.png</file>
+</qresource>
 </RCC>
