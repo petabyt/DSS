@@ -36,15 +36,18 @@ int main(int argc, char **argv)
 
     /* Install translation */
     QTranslator translator;
+    QLocale locale;
     QString language = QSettings().value("Language", "").toString();
-    
+
     /* Language was not defined in preferences. Select the system default */
     if (language == "") {
-        language = QLocale().name().left(2);
+        language = QLocale().name();
     }
 
+    qDebug() << language;
+
     /* Install language if the translation is existing */
-    if (translator.load(":/i18n/DSS_" + language + ".qm")) {
+    if (translator.load("DSS." + language, ":/i18n/")) {
         app.installTranslator(&translator);
     }
 
