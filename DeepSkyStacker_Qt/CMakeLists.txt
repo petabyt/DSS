@@ -13,13 +13,13 @@ endif()
 # The list will automatically create necessary resource to include the
 # translations into final binary
 set(TRANSLATIONS "")
-set(LANGUAGES ca cs de en es fr it nl pt ro ru tr zh)
+set(LANGUAGES ca_ES cs_CZ de_DE en_GB es_ES fr_FR it_IT nl_NL pt_BR ro_RO ru_RU tr_TR zh_TW)
 
 # Create resource file and a list of translations to generate
 file(WRITE i18n/translations.qrc "<!DOCTYPE RCC><RCC version=\"1.0\">\n<qresource prefix=\"i18n\">\n")
 foreach(LANG ${LANGUAGES})
-    list(APPEND TRANSLATIONS i18n/DSS_${LANG}.ts)
-    file(APPEND i18n/translations.qrc "    <file>DSS_${LANG}.qm</file>\n")
+    list(APPEND TRANSLATIONS i18n/DSS.${LANG}.ts)
+    file(APPEND i18n/translations.qrc "    <file>DSS.${LANG}.qm</file>\n")
 endforeach(LANG)
 file(APPEND i18n/translations.qrc "</qresource>\n</RCC>")
 
@@ -86,7 +86,7 @@ add_executable(DeepSkyStacker
     ${ICON}
 )
 
-target_include_directories(DeepSkyStacker PRIVATE 
+target_include_directories(DeepSkyStacker PRIVATE
     ../DeepSkyStacker/
     ${TIFF_INCLUDE_DIR}
     ${CFITSIO_INCLUDE_DIR}
