@@ -1,4 +1,4 @@
-#include <QFont.h>
+#include <qfont.h>
 #include "ClickLabel.h"
 
 ClickLabel::ClickLabel(QWidget* parent, Qt::WindowFlags f)
