@@ -2,6 +2,14 @@ cmake_minimum_required(VERSION 3.1.0)
 
 project(DeepSkyStacker)
 
+# Some notes:
+# sudo apt install qttools5-dev libtiff5-dev qt5-default qtbase5-dev-tools
+# DSS/DeepSkyStacker_Qt/ClickLabel.cpp:1:10
+# QFont.h -> qfont.h
+
+set(CFITSIO_INCLUDE_DIR cfitsio/)
+set(CFITSIO_LIBRARIES cfitsio/)
+
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
