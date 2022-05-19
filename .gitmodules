@@ -1,0 +1,3 @@
+[submodule "cfitsio"]
+	path = cfitsio
+	url = https://github.com/healpy/cfitsio
